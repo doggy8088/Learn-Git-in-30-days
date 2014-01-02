@@ -3,7 +3,7 @@
 
 作者: 黃保翕 ( Will 保哥 )
 
-![](https://kkbox-registrano.s3.amazonaws.com/upload_images/13710/gitlogo_530.png)
+![Git](https://kkbox-registrano.s3.amazonaws.com/upload_images/13710/gitlogo_530.png)
 
 文章簡介
 ------------
@@ -60,5 +60,6 @@
 
 與我聯絡
 ---------
-粉絲頁: [Will 保哥的技術交流中心](https://www.facebook.com/will.fans)
-部落格: [The Will Will Web](http://blog.miniasp.com/)
+
+* 粉絲頁: [Will 保哥的技術交流中心](https://www.facebook.com/will.fans)
+* 部落格: [The Will Will Web](http://blog.miniasp.com/)
