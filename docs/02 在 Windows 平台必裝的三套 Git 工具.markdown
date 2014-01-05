@@ -1,5 +1,5 @@
 第 02 天：在 Windows 平台必裝的三套 Git 工具
-===========================================================
+==========================================
 
 要開始使用 Git 版本控管，首先要安裝適當的 Git 工具，這個系列的文章主要還是以 Windows 平台為主，這篇文章將會介紹三套我們最常用的 Git 版控工具，並介紹這幾套工具之間的異同之處，還有在何時要用甚麼工具。
 
@@ -34,15 +34,15 @@
 
 ![image](https://f.cloud.github.com/assets/88981/1144775/f3e3f81e-1dcd-11e3-846b-d842b3e02987.png)
 
-* 選取元件，保留預設選項即可
+* 選取元件，**建議取消勾選 Windows Explorer integration 選項！** <br>( 因為這套整合工具太陽春，建議改用 [TortoiseGit](https://code.google.com/p/tortoisegit/) 工具 )
 
-![image](https://f.cloud.github.com/assets/88981/1144776/109b2d92-1dce-11e3-9e14-7e637d9e8e94.png)
+![image](https://f.cloud.github.com/assets/88981/1846798/1f599c24-761b-11e3-81e1-82b829a59fe9.png)
 
 * 設定程式集名稱，保留預設選項即可
 
 ![image](https://f.cloud.github.com/assets/88981/1144777/3651dd2e-1dce-11e3-883a-8a813c1d3b29.png)
 
-* 這裡請選擇第二項：Run Git from the Windows Command Prompt 
+* 這裡建議 **選擇選擇 Run Git from the Windows Command Prompt 這個選項！** <br>( 因為 Windows 使用者大多不熟 Bash 指令 )
 
 ![image](https://f.cloud.github.com/assets/88981/1144779/41c199e2-1dce-11e3-96db-c82fa0add2eb.png)
 
@@ -71,9 +71,9 @@
 
 這套是由 [GitHub](https://github.com) 官方開發的工具，寫給那些對 Git 沒有很了解的人用的，用簡潔與親民的 GUI 介面，企圖隱藏 Git 那些難懂的觀念與指令參數。雖然 GitHub for Windows 工具比起 Git for Windows 親和許多，但對 Git 完全沒有概念的人來說，要上手 GitHub for Windows 工具可能也不是件容易的事。
 
-	GitHub for Windows 內建了一個 Git Shell 工具，這工具會用到 [Git for Windows](http://msysgit.github.io/)，所以如果你沒有安裝 Git for Windows 的話，也將無法使用 [GitHub for Windows](http://windows.github.com/) 的 Git Shell 工具 。
+> [GitHub for Windows](http://windows.github.com/) 內建了一個 [Git Shell](https://github.com/dahlbyk/posh-git/) 工具，這工具會用到 [Git for Windows](http://msysgit.github.io/)，所以如果你沒有安裝 Git for Windows 的話，也將無法使用 GitHub for Windows 的 Git Shell 工具 。
 
-這套工具，大概可以幫你完整的 Git 工作也很有限，最主要有以下能力：
+這套工可以幫你完成的 Git 版控工作已經蠻多的，至少基本版控功能都有提供，最主要有以下能力：
 
 * Clone Repositories
 	* 將 GitHub 上面的儲存庫複製回來 (git clone)
@@ -86,8 +86,9 @@
 * Share on GitHub.com
 	* 與 GitHub 同步變更
 	* 這裡「同步」 (Sync) 的意思是將 git pull 與 git push 整合在一起
+	* GitHub for Windows 在同步的時候，預設是使用 rebase 方式進行合併。
 
-除此之外的大部分 Git for Windows 能做的事，在 GitHub for Windows 裡面都不能做！若真的要應用在較為大型的開發專案上，可能要考慮看看是否適用。
+除此之外的大部分 Git for Windows 能做的事，在 GitHub for Windows 裡面都不能做！若真的要應用在較為大型的開發專案上，可能要考慮看看是否適用，但如果是給非軟體開發人員來說，簡單的版控工作應該非常足夠。
 
 以下是 GitHub for Windows 安裝過程：
 
@@ -121,8 +122,9 @@
 
 * GitHub for Windows 幫你產生的 SSH Key 預設路徑如下：
 
-	* "C:\Users\<username>\.ssh\github_rsa"
-	* "C:\Users\<username>\.ssh\github_rsa.pub"
+	* **C:\Users\&lt;username&gt;\\.ssh\github_rsa**
+	* **C:\Users\&lt;username&gt;\\.ssh\github_rsa.pub**
+
 
 * SSH Key 的簽章的部分也會在登入的同時上傳到 GitHub 網站，你可以從個人的設定畫面 ( [https://github.com/settings/ssh](https://github.com/settings/ssh) ) 中看到曾經上傳過的 SSH Key 簽章：
 
@@ -139,69 +141,75 @@
 
 這套是由 [ATLASSIAN](https://www.atlassian.com) 這間公司開發的工具，是一套非常專業的 GUI 操作工具，不僅支援 Git 版本控管，同時也支援 [Mercurial](http://mercurial.selenic.com/) 版本控管機制，這兩套版本控管機制都屬於分散式版本控管的分類，概念上也十分相近，所以可以整合在這一套工具上使用。
 
-	[SourceTree](http://www.sourcetreeapp.com/) 其實骨子裡也是透過 Git for Windows 工具進行版本操作，如果你沒有事先安裝 [Git for Windows](http://msysgit.github.io/) 的話，安裝的過程中他也會提示你要不要順便安裝起來。
+> [SourceTree](http://www.sourcetreeapp.com/) 其實骨子裡也是透過 [Git for Windows](http://msysgit.github.io/) 工具進行版本操作，如果你沒有事先安裝 [Git for Windows](http://msysgit.github.io/) 的話，安裝的過程中他也會提示你要不要順便安裝起來。
 
 [SourceTree](http://www.sourcetreeapp.com/) 的功能相較於 [GitHub for Windows](http://windows.github.com/) 是強大許多，幾乎所有的指令列功能都能夠過 SourceTree 的 GUI 介面完成(透過滑鼠操作)，不過還是老話一句，如果你對 Git 的核心觀念不太了解，再多的右鍵選單對你來說等同於白紙一張，一樣不知道怎樣操作。但你若認真的了解 Git 的運作機制與觀念，使用 SourceTree 絕對能夠事半功倍！
 
 以下是 SourceTree 安裝過程：
 
 * 先連到 http://www.sourcetreeapp.com/ 準備下載安裝檔
-
-![image](https://f.cloud.github.com/assets/88981/1145540/a568ea42-1e1c-11e3-87d0-542deb15b303.png)
+	
+	![image](https://f.cloud.github.com/assets/88981/1145540/a568ea42-1e1c-11e3-87d0-542deb15b303.png)
 
 * 下載完後直接執行安裝，其餘的安裝步驟就直接一直按 `Next` 到最後，然後直接開啟 SourceTree 程式
-
-![image](https://f.cloud.github.com/assets/88981/1145558/df457860-1e1d-11e3-9185-77b41b679caa.png)
-
-![image](https://f.cloud.github.com/assets/88981/1145559/fc028b6e-1e1d-11e3-81dd-55797abdc31f.png)
-
-![image](https://f.cloud.github.com/assets/88981/1145561/14dc332e-1e1e-11e3-96db-024ec861965e.png)
-
-![image](https://f.cloud.github.com/assets/88981/1145562/21931d76-1e1e-11e3-8359-dcf9b2c3c8cb.png)
+	
+	![image](https://f.cloud.github.com/assets/88981/1145558/df457860-1e1d-11e3-9185-77b41b679caa.png)
+	
+	![image](https://f.cloud.github.com/assets/88981/1145559/fc028b6e-1e1d-11e3-81dd-55797abdc31f.png)
+	
+	![image](https://f.cloud.github.com/assets/88981/1145561/14dc332e-1e1e-11e3-96db-024ec861965e.png)
+	
+	![image](https://f.cloud.github.com/assets/88981/1145562/21931d76-1e1e-11e3-8359-dcf9b2c3c8cb.png)
 
 * 第一次啟動 SourceTree 時，會問你要不要順便安裝 [Mercurial](http://mercurial.selenic.com/)，可裝可不裝
 
-![image](https://f.cloud.github.com/assets/88981/1145563/50148fe0-1e1e-11e3-9ae6-13899984e392.png)
+	![image](https://f.cloud.github.com/assets/88981/1145563/50148fe0-1e1e-11e3-9ae6-13899984e392.png)
 
 * 第一次使用 SourceTree 時，跟 GitHub for Windows 一樣，都要設定預設的 user.name 與 user.email 這兩個參數，不過，如果你有按照本文步驟安裝的話，這一步應該不用特別輸入，因為之前輸入的參數都已經寫入到 Git for Windows 的 Global 設定檔中，這邊會自動被帶入，你直接按下 `Next` 即可。 
 
-![image](https://f.cloud.github.com/assets/88981/1145567/a227c9e6-1e1e-11e3-8fb7-7e0afaa775e1.png)
+	![image](https://f.cloud.github.com/assets/88981/1145567/a227c9e6-1e1e-11e3-8fb7-7e0afaa775e1.png)
 
 * 這個步驟則是選擇適當的 SSH Client，這是為了跟遠端的 Git 儲存庫認證所需要的工具，選用預設值即可。
 
-![image](https://f.cloud.github.com/assets/88981/1145572/147124c0-1e1f-11e3-92e4-54cc73b57e9e.png)
+	![image](https://f.cloud.github.com/assets/88981/1145572/147124c0-1e1f-11e3-92e4-54cc73b57e9e.png)
 
 * 接著這個步驟則是問你是否已有 SSH Key 存在，由於我們在 GitHub for Windows 已經產生過一個 GitHub 專用的 SSH Key，所以你也可以在這一步按下 `Yes` 並選取 `C:\Users\<username>\.ssh\github_rsa` 這個檔案 (這是一個 SSH 私密金鑰)。
 
-![image](https://f.cloud.github.com/assets/88981/1145573/3c2d4fca-1e1f-11e3-85ea-ed8ba97fb66b.png)
+	![image](https://f.cloud.github.com/assets/88981/1145573/3c2d4fca-1e1f-11e3-85ea-ed8ba97fb66b.png)
 
 * 雖然 SourceTree 是免費軟體，但還是必須在安裝後 30 天內 "免費註冊" 得到序號後，才能繼續使用。
 
-![image](https://f.cloud.github.com/assets/88981/1145605/50e68a5e-1e23-11e3-8c7a-28a81db4a655.png)
+	![image](https://f.cloud.github.com/assets/88981/1145605/50e68a5e-1e23-11e3-8c7a-28a81db4a655.png)
 
 * 立即註冊一個授權
 
-![image](https://f.cloud.github.com/assets/88981/1145606/6742cd6c-1e23-11e3-9e07-c8bb1be8a7da.png)
+	![image](https://f.cloud.github.com/assets/88981/1145606/6742cd6c-1e23-11e3-9e07-c8bb1be8a7da.png)
 
 * 先輸入 Email 地址
 
-![image](https://f.cloud.github.com/assets/88981/1145608/824ee14a-1e23-11e3-982c-b57ca22e61c3.png)
+	![image](https://f.cloud.github.com/assets/88981/1145608/824ee14a-1e23-11e3-982c-b57ca22e61c3.png)
 
 * 然後輸入一些個人基本資料與設定一個密碼，即可註冊完成
 
-![image](https://f.cloud.github.com/assets/88981/1145611/a49452f8-1e23-11e3-96a3-f5be34d68662.png)
+	![image](https://f.cloud.github.com/assets/88981/1145611/a49452f8-1e23-11e3-96a3-f5be34d68662.png)
 
 * 如果你在另外一台電腦也安裝 SourceTree 的話，直接輸入第一次註冊時設定的密碼即可自動下載授權檔進行註冊
 
-![image](https://f.cloud.github.com/assets/88981/1145620/62bd3902-1e24-11e3-921f-4bf4926eb161.png)
+	![image](https://f.cloud.github.com/assets/88981/1145620/62bd3902-1e24-11e3-921f-4bf4926eb161.png)
 
 * 註冊成功
 
-![image](https://f.cloud.github.com/assets/88981/1145613/0edec6f2-1e24-11e3-9d9f-ae144eba39ba.png)
+	![image](https://f.cloud.github.com/assets/88981/1145613/0edec6f2-1e24-11e3-9d9f-ae144eba39ba.png)
 
 * 在使用 SourceTree 的時候，有個 Open in Terminal 功能，這會開啟一個類似 [Cygwin](http://www.cygwin.com/) 的命令提示字元視窗，讓你直接操作 git 命令。
 
-![image](https://f.cloud.github.com/assets/88981/1145623/bf2f1ce6-1e24-11e3-8679-7e19afa1ddd0.png)
+	![image](https://f.cloud.github.com/assets/88981/1145623/bf2f1ce6-1e24-11e3-8679-7e19afa1ddd0.png)
+
+
+第 4 套：[TortoiseGit](https://code.google.com/p/tortoisegit/)
+-----------------------------------------------------------------
+
+TODO
 
 
 今日小結
@@ -215,6 +223,7 @@
 參考連結
 -------
 
-*  [Git for Windows](http://msysgit.github.io/)
-*  [GitHub for Windows](http://windows.github.com/)
-*  [SourceTree](http://www.sourcetreeapp.com/)
+* [Git for Windows](http://msysgit.github.io/)
+* [GitHub for Windows](http://windows.github.com/)
+* [SourceTree](http://www.sourcetreeapp.com/)
+* [TortoiseGit](https://code.google.com/p/tortoisegit/)
