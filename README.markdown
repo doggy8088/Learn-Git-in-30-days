@@ -54,7 +54,11 @@
 課程資訊
 ---------
 
-* [Git 版本控管實戰：從入門到進階](https://kktix.com/events/git-taipei-01) [兩天課程]
+* [《台中》Git 版本控管實戰：新手入門篇](http://miniasp.kktix.cc/events/git-taichung-01) [一天課程]
+	* 上課時間: 2014/04/19 9:00 ~ 17:00
+* [《高雄》Git 版本控管實戰：新手入門篇](http://miniasp.kktix.cc/events/git-kaohsiung-01) [一天課程]
+	* 上課時間: 2014/03/16 9:00 ~ 17:00
+* [《台北》Git 版本控管實戰：從入門到進階](https://kktix.com/events/git-taipei-01) [兩天課程]
 	* 上課時間 (第一天): 2014/01/11 9:00 ~ 17:00
 	* 上課時間 (第二天): 2014/01/18 9:00 ~ 17:00
 
@@ -63,3 +67,4 @@
 
 * 粉絲頁: [Will 保哥的技術交流中心](https://www.facebook.com/will.fans)
 * 部落格: [The Will Will Web](http://blog.miniasp.com/)
+* 噗　浪: [★★★ Will 保哥的噗浪 ★★★](http://www.plurk.com/willh/invite)
