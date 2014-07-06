@@ -13,11 +13,11 @@
 
 * `git pull`
 
-	將遠端儲存庫的最新版下載回來，下載的內容包含完整的物件儲存庫(object storage)。並且將遠端分支合併到本地分支。 (將 `origin/master` 遠端分之合併到 `master` 本地分支)
+	將遠端儲存庫的最新版下載回來，下載的內容包含完整的物件儲存庫(object storage)。並且將遠端分支合併到本地分支。 (將 `origin/master` 遠端分支合併到 `master` 本地分支)
 
 	所以一個 `git pull` 動作，完全相等於以下兩段指令：
 
-		git fetch 
+		git fetch
 		git merge origin/master
 
 * `git push`
@@ -161,7 +161,7 @@
 
 ![image](https://f.cloud.github.com/assets/88981/1405874/cd6e0c9a-3d41-11e3-843c-f1cc78a11cdf.png)
 
-執行 `git push --set-upstream origin FixForCRLF` 的同時，會在 `.git\config` 設定檔增加以下內容： 
+執行 `git push --set-upstream origin FixForCRLF` 的同時，會在 `.git\config` 設定檔增加以下內容：
 
 	[branch "FixForCRLF"]
 		remote = origin
@@ -188,4 +188,4 @@
 * git branch -a
 * git branch
 * git push
-* git ls-remote 
+* git ls-remote
