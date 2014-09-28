@@ -54,6 +54,8 @@
 課程資訊
 ---------
 
+* [《台北》Git 版本控管實戰：從入門到進階](http://miniasp.kktix.cc/events/git-taipei-06) [一天課程]
+	* 上課時間: 2014/10/05 9:00 ~ 17:00
 * [《台北》Git 版本控管實戰：從入門到進階](https://kktix.com/events/git-taipei-04) [一天課程]
 	* 上課時間: 2014/06/14 9:00 ~ 17:00
 * [《台北》Git 版本控管實戰：從入門到進階](https://kktix.com/events/git-taipei-03) [一天課程]
