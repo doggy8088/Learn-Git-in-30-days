@@ -129,7 +129,7 @@
 	[gc "master"]
 		reflogExpire = 14 days
 		reflogExpireUnreachable = 14 days
-	[gc "release"]
+	[gc "develop"]
 		reflogExpire = never
 		reflogExpireUnreachable = never
 
