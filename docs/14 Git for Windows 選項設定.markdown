@@ -190,7 +190,7 @@ Git 選項設定的檔案內容其實格式都一樣，我們試著開啟一個*
 
 		git config --global core.autocrlf true
 
-	幣者曾經寫過一篇 [Git 在 Windows 平台處理斷行字元 (CRLF) 的注意事項](http://blog.miniasp.com/post/2013/09/15/Git-for-Windows-Line-Ending-Conversion-Notes.aspx) 的文章，建議各位可以看看。
+	筆者曾經寫過一篇 [Git 在 Windows 平台處理斷行字元 (CRLF) 的注意事項](http://blog.miniasp.com/post/2013/09/15/Git-for-Windows-Line-Ending-Conversion-Notes.aspx) 的文章，建議各位可以看看。
 
 * 自動訂正打錯的參數
 
