@@ -160,6 +160,9 @@
 
 ![image](https://f.cloud.github.com/assets/88981/1419052/eb32777e-3fc2-11e3-8290-95f7433aa4c0.png)
 
+**註** Github for Mac;Github for Windows 已增加pull request功能
+
+![image](https://cloud.githubusercontent.com/assets/634063/6474793/42c3a6a6-c204-11e4-9380-f05d68ab9d99.gif)
 
 接受 pull request 的要求，確認合併回自己的 GitHub 專案 
 ------------------------------------------------------
