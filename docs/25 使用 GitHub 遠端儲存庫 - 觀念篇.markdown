@@ -132,7 +132,7 @@
 
 	fetch = +refs/heads/master:refs/remotes/origin/master
 
-如果你想明確下在特定幾個分支就好，你可以重複定義好幾個不同的 `fetch` 參照規格 (refspec)，例如：
+如果你想明確下載特定幾個分支就好，你可以重複定義好幾個不同的 `fetch` 參照規格 (refspec)，例如：
 
 	[remote "origin"]
 	       url = https://github.com/doggy8088/sandbox-empty2.git
