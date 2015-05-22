@@ -111,7 +111,7 @@
 1. 先知道你在 Rebase 之前，是落於哪個版本。
 2. 再查出你要從哪個版本開始 Rebase
 3. 然後真正執行 Rebase 動作
-4. 不管做了哪些動作，你在執行一次 `git reflog` 就可以看出 Rebase 真正做了幾件事
+4. 不管做了哪些動作，你再執行一次 `git reflog` 就可以看出 Rebase 真正做了幾件事
 5. 若要還原 Rebase 的版本，只要找到 Rebase 之前的版本，就可以透過　`git reset --hard` 來還原  
 
 取得遠端儲存庫的統計資訊
