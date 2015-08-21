@@ -201,12 +201,14 @@
 
 ![image](https://f.cloud.github.com/assets/88981/1435496/c0cdca22-4140-11e3-9ece-6aae6fcf514e.png)
 
-這裡主要提供四種報表：
+這裡主要提供六種報表：
 
 * Contributors (本專案貢獻者的活躍程度）
 * Commit Activity (每一天的 commit 活動數量)
 * Code Frequency (原始碼異動服務，可看出每天新增與刪除的程式碼行數)
 * Punchcard (每一天的 commit 數量，用打卡的方式來顯示) (類似上下班打卡的那種卡片)
+* Network (pull request 與 merge 的圖形表示)
+* Members (所有 fork 此專案的 github 成員)
 
 點進去之後，還可以繼續往下鑽(Drill-Down)，查看更細的統計報表：
 
@@ -228,7 +230,7 @@
 
 	git push origin :FixForCRLF
 
-另一個同樣目的的指令用法如下，指令看幾來較為直覺些：
+另一個同樣目的的指令用法如下，指令看起來較為直覺些：
 
 	git push origin --delete FixForCRLF
 
@@ -238,7 +240,7 @@
 找出改壞程式的兇手
 --------------------
 
-替原始碼做版控，最有效的就是每個檔案的每一行都可以進行詳細追蹤，今天如果程式發生異常，且找到哪一行出錯時，就可以透過 `git blame` 指令，幫你找出真正改換程式的兇手，並且去看他為什麼會改壞。
+替原始碼做版控，最有效的就是每個檔案的每一行都可以進行詳細追蹤，今天如果程式發生異常，且找到哪一行出錯時，就可以透過 `git blame` 指令，幫你找出真正改壞程式的兇手，並且去看他為什麼會改壞。
 
 用法如下：
 

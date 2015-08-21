@@ -19,7 +19,7 @@
 * Staging area (等待被 commit 的地方)
 * Staged files (等待被 commit 的檔案)
 
-幾個例子來說，指令 `git diff --cached` 就與 `git diff --staged` 是完全同義的。
+舉個例子來說，指令 `git diff --cached` 就與 `git diff --staged` 是完全同義的。
 
 操作索引的指令
 -------------
