@@ -95,7 +95,7 @@
 
 **註**：請記得，參照名稱可以指向任意 Git 物件，並沒有限定非要 commit 物件不可。
 
-若要建立較為正式的參照名稱，最好加上 `refs/` 開頭，例如：`git update-ref refs\InitialCommit [object_id]`。
+若要建立較為正式的參照名稱，最好加上 `refs/` 開頭，例如：`git update-ref refs/InitialCommit [object_id]`。
 
 若要刪除一般參照，則可以使用 `-d` 選項。如下圖示：
 
