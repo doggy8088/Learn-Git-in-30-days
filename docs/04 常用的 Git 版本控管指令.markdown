@@ -215,3 +215,13 @@
 -------
 
 * [BASIC SNAPSHOTTING](http://gitref.org/basic/)
+
+
+-------
+* [回目錄](../README.markdown)
+* [前一天](03 建立儲存庫.markdown)
+* [下一天](05 了解儲存庫、工作目錄、物件與索引之間的關係.markdown)
+
+-------
+
+

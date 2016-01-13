@@ -71,3 +71,15 @@ Git 裡的「物件」十分重要，其特性也十分重要，雖然我們在�
 * [Pro Git Book](http://progit.org/)
 * [Git Magic - 繁體中文版](http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_tw/)
 * [Git (software) - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Git_(software) "Git (software) - Wikipedia, the free encyclopedia")
+
+
+
+
+-------
+* [回目錄](../README.markdown)
+* [前一天](05 了解儲存庫、工作目錄、物件與索引之間的關係.markdown)
+* [下一天](07 解析 Git 資料結構 - 索引結構.markdown)
+
+-------
+
+

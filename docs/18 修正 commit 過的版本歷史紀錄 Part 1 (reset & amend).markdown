@@ -152,3 +152,15 @@ Git 保留了「修改版本歷史紀錄」的機制，主要是希望你能在�
 -------
 
 * [git-reset(1) Manual Page](https://www.kernel.org/pub/software/scm/git/docs/git-reset.html)
+
+
+
+
+-------
+* [回目錄](../README.markdown)
+* [前一天](17 關於合併的基本觀念與使用方式.markdown)
+* [下一天](19 設定 .gitignore 忽略清單.markdown)
+
+-------
+
+

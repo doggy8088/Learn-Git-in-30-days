@@ -294,3 +294,15 @@
 * git branch -a
 * git checkout hotfix/bugs_in_membership
 * git push origin hotfix/bugs_in_membership
+
+
+
+
+-------
+* [回目錄](../README.markdown)
+* [前一天](26 多人在同一個遠端儲存庫中進行版控.markdown)
+* [下一天](28 了解 GitHub 上 forks 與 pull request 的版控流程.markdown)
+
+-------
+
+

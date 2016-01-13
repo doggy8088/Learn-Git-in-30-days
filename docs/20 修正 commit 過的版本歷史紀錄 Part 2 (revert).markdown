@@ -124,3 +124,13 @@
 
 * git revert [commit_id] -s	(在訊息內容加上目前使用者的簽署名稱)
 * git revert [commit_id] -e (在完成版本之前顯示編輯訊息的視窗) 
+
+
+-------
+* [回目錄](../README.markdown)
+* [前一天](19 設定 .gitignore 忽略清單.markdown)
+* <a href="21 修正 commit 過的版本歷史紀錄 Part 3 (cherry-pick).markdown">下一天</a>
+
+-------
+
+

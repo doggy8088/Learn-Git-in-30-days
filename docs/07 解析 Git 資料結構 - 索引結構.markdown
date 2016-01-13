@@ -137,3 +137,14 @@ Git 裡的「索引」是 Git 版控中最重要的觀念，有了這層觀念�
 * [Pro Git Book](http://progit.org/)
 * [Git Magic - 繁體中文版](http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_tw/)
 * [Git (software) - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Git_(software) "Git (software) - Wikipedia, the free encyclopedia")
+
+
+
+-------
+* [回目錄](../README.markdown)
+* [前一天](06 解析 Git 資料結構 - 物件結構.markdown)
+* [下一天](08 關於分支的基本觀念與使用方式.markdown)
+
+-------
+
+

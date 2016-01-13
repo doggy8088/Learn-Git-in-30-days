@@ -190,3 +190,15 @@ GitHub 是目前全世界最多人採用的 Git 線上管理平台，他包含�
 * git push
 * git fetch
 * git merge origin/master
+
+
+
+
+-------
+* [回目錄](../README.markdown)
+* <a href="23 修正 commit 過的版本歷史紀錄 Part 5 (rebase 2).markdown">前一天</a>
+* [下一天](25 使用 GitHub 遠端儲存庫 - 觀念篇.markdown)
+
+-------
+
+

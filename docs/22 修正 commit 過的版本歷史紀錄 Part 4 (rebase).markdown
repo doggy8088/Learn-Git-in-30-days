@@ -140,3 +140,15 @@ Rebase 是 "Re-" 與 "Base" 的複合字，這裡的 "Base" 代表「基礎版�
 * git rebase master
 * git merge branch1
 * git branch -d branch1
+
+
+
+
+-------
+* [回目錄](../README.markdown)
+* <a href="21 修正 commit 過的版本歷史紀錄 Part 3 (cherry-pick).markdown">前一天</a>
+* <a href="23 修正 commit 過的版本歷史紀錄 Part 5 (rebase 2).markdown">下一天</a>
+
+-------
+
+

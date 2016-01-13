@@ -97,3 +97,13 @@ Git 的出現，來自於 Linux 之父 "Linus Torvalds" 開發 Linux kernel 的�
 * [Git Magic - 繁體中文版](http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_tw/)
 * [簡介 Git 及使用](http://ascc.sinica.edu.tw/iascc/articals.php?_section=2.4&_op=?articalID:4811)
 * [版本控制 - 維基百科，自由的百科全書](http://zh.wikipedia.org/wiki/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6)
+
+
+
+-------
+* [回目錄](../README.markdown)
+* [下一天](02 在 Windows 平台必裝的三套 Git 工具.markdown)
+
+-------
+
+

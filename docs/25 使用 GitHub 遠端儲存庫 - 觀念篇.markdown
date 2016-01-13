@@ -189,3 +189,15 @@
 * git branch
 * git push
 * git ls-remote
+
+
+
+
+-------
+* [回目錄](../README.markdown)
+* [前一天](24 使用 GitHub 遠端儲存庫 - 入門篇.markdown)
+* [下一天](26 多人在同一個遠端儲存庫中進行版控.markdown)
+
+-------
+
+

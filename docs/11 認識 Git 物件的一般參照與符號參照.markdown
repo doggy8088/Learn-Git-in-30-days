@@ -137,3 +137,15 @@ Git 參照名稱又有區分「一般參照」與「符號參照」，兩者的�
 * git update-ref
 * git symbolic-ref
 * git show-ref
+
+
+
+
+-------
+* [回目錄](../README.markdown)
+* [前一天](10 認識 Git 物件的絕對名稱.markdown)
+* [下一天](12 認識 Git 物件的相對名稱.markdown)
+
+-------
+
+

@@ -94,3 +94,13 @@
 *  [GETTING AND CREATING PROJECTS - Git Reference](http://gitref.org/creating/)
 *  [Git for Windows](http://msysgit.github.io/)
 *  [GitHub for Windows](http://windows.github.com/)
+
+
+-------
+* [回目錄](../README.markdown)
+* [前一天](02 在 Windows 平台必裝的三套 Git 工具.markdown)
+* [下一天](04 常用的 Git 版本控管指令.markdown)
+
+-------
+
+

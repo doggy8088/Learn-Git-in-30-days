@@ -198,3 +198,13 @@
 * [Git workflow: Forks, remotes, and pull requests](http://nathanhoad.net/git-workflow-forks-remotes-and-pull-requests)
 * [Fork a Repo, Compare Code, and Create a Pull Request](https://confluence.atlassian.com/display/BITBUCKET/Fork+a+Repo,+Compare+Code,+and+Create+a+Pull+Request)
 * [Forks and Pull Requests in GitHub](http://chronicle.com/blogs/profhacker/forks-and-pull-requests-in-github/47753)
+
+
+-------
+* [回目錄](../README.markdown)
+* [前一天](27 透過分支在同一個遠端儲存庫中進行版控.markdown)
+* [下一天](29 如何將 Subversion 專案匯入到 Git 儲存庫.markdown)
+
+-------
+
+

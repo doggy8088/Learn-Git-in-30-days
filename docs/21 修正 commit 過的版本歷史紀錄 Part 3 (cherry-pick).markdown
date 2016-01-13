@@ -100,3 +100,15 @@
 * git cherry-pick [commit_id] -e
 * git cherry-pick [commit_id] -x
 * git cherry-pick [commit_id] -n
+
+
+
+
+-------
+* [回目錄](../README.markdown)
+* <a href="20 修正 commit 過的版本歷史紀錄 Part 2 (revert).markdown">前一天</a>
+* <a href="22 修正 commit 過的版本歷史紀錄 Part 4 (rebase).markdown">下一天</a>
+
+-------
+
+

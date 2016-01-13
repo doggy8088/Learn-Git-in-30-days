@@ -112,3 +112,15 @@ SVN 專案中有所謂的 `svn:ignore` 屬性，這等同於 Git 的 `.gitignore
 就這樣簡單四步驟，就可以把 SVN 專案完整的轉移到 Git 儲存庫，是不是非常簡單呢。
 
 事實上，這個工作目錄還可以持續地跟原本的 SVN 版本庫溝通，可以 commit 變更，也可以 pull 變更回來 ( `git svn rebase` )，詳細的操作說明只要執行 `git help svn` 就可以取得完整說明。當然，我還是建議轉過去就轉過去了，否則在 Git 環境下操作 SVN 總覺得怪怪的，有點多此一舉的感覺，但確實有可能有這種需求。
+
+
+
+
+-------
+* [回目錄](../README.markdown)
+* [前一天](28 了解 GitHub 上 forks 與 pull request 的版控流程.markdown)
+* [下一天](30 分享工作中幾個好用的 Git 操作技巧.markdown)
+
+-------
+
+
