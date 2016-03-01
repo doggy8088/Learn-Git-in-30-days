@@ -167,3 +167,15 @@ Git 的版本日誌(reflog)幫我們記憶在版控過程中的所有變更，�
 * [git-reflog(1) Manual Page](http://git-scm.com/docs/git-reflog)
 * [git-gc(1) Manual Page](http://git-scm.com/docs/git-gc)
 * [http://git.kernel.org/cgit/git/git.git/tree/date.c](http://git.kernel.org/cgit/git/git.git/tree/date.c)
+
+
+
+
+-------
+* [回目錄](../README.markdown)
+* [前一天](15 標籤 - 標記版本控制過程中的重要事件.markdown)
+* [下一天](17 關於合併的基本觀念與使用方式.markdown)
+
+------- 
+
+

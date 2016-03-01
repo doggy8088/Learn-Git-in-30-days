@@ -136,3 +136,13 @@
 
 * [BASIC SNAPSHOTTING](http://gitref.org/basic/#diff)
 * [git-diff(1) Manual Page](https://www.kernel.org/pub/software/scm/git/docs/git-diff.html)
+
+
+-------
+* [回目錄](../README.markdown)
+* [前一天](08 關於分支的基本觀念與使用方式.markdown)
+* [下一天](10 認識 Git 物件的絕對名稱.markdown)
+
+-------
+
+

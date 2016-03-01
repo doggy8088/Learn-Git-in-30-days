@@ -273,3 +273,13 @@ Git 選項設定的檔案內容其實格式都一樣，我們試著開啟一個*
 * [11. Aliases | Git How To](http://githowto.com/aliases)
 * [7.1 Customizing Git - Git Configuration](http://git-scm.com/book/en/Customizing-Git-Git-Configuration)
 * [git-config(1) Manual Page](https://www.kernel.org/pub/software/scm/git/docs/git-config.html)
+
+
+-------
+* [回目錄](../README.markdown)
+* [前一天](13 暫存工作目錄與索引的變更狀態.markdown)
+* [下一天](15 標籤 - 標記版本控制過程中的重要事件.markdown)
+
+-------
+
+

@@ -257,3 +257,15 @@ Rebase 能做的事
 
 * git rebase -i [commit_id]
 * git commit --amend
+
+
+
+
+-------
+* [回目錄](../README.markdown)
+* <a href="22 修正 commit 過的版本歷史紀錄 Part 4 (rebase).markdown">前一天</a>
+* [下一天](24 使用 GitHub 遠端儲存庫 - 入門篇.markdown)
+
+-------
+
+

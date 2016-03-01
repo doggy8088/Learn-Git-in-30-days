@@ -220,6 +220,7 @@ TODO
 不過，我再耳提面命一次，要學會使用 Git 的 GUI 介面工具，一定要先擁有完整的 Git 版控概念，否則真的很難靈活運用這些好用工具。 
 
 
+
 參考連結
 -------
 
@@ -227,3 +228,17 @@ TODO
 * [GitHub for Windows](http://windows.github.com/)
 * [SourceTree](http://www.sourcetreeapp.com/)
 * [TortoiseGit](https://code.google.com/p/tortoisegit/)
+ 
+
+
+
+
+
+-------
+* [回目錄](../README.markdown)
+* [前一天](01 認識 Git 版本控管.markdown)
+* [下一天](03 建立儲存庫.markdown)
+
+-------
+
+

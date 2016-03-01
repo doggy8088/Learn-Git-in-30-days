@@ -80,4 +80,16 @@
 
 * git log
 * git cat-file -p [object_id]
-* * git rev-parse
+* git rev-parse
+
+
+
+
+-------
+* [回目錄](../README.markdown)
+* [前一天](11 認識 Git 物件的一般參照與符號參照.markdown)
+* [下一天](13 暫存工作目錄與索引的變更狀態.markdown)
+
+-------
+
+

@@ -43,3 +43,14 @@
 * git cat-file -p [object_id]
 * git log --pretty=oneline
 * git log --pretty=oneline --abbrev-commit
+
+
+
+-------
+* [回目錄](../README.markdown)
+* [前一天](09 比對檔案與版本差異.markdown)
+* [下一天](11 認識 Git 物件的一般參照與符號參照.markdown)
+
+-------
+
+
