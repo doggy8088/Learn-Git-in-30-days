@@ -184,7 +184,7 @@
 
 真的要解決衝突，你必須手動把這些衝突的檔案改好。不過，如果這時使用 SourceTree 來修復衝突的檔案，那生命將會美好許多。
 
-我們開啟 SourceTree 並進入 Working Copy 節點，在檔案清單中按下滑鼠右鍵，這時有個 **Resolve Conflicts** (解決衝突) 的選單，這裡你就能選擇你要用我的(`Mine`)或是用他的(`Theirs`)來解決這個檔案的衝突狀態。所謂「我的」就是你當前工作目錄的那個分支(`master`)，而「他的」就是被我們指定合併進來的那個分支(`hotfixes`)。
+我們開啟 SourceTree 並進入 Working Copy 節點，在檔案清單中按下滑鼠右鍵，這時有個 **Resolve Conflicts** (解決衝突) 的選單，這裡你就能選擇你要用我的(`Mine`)或是用其他人的(`Theirs`)來解決這個檔案的衝突狀態。所謂「我的」就是你當前工作目錄的那個分支(`master`)，而「他的」就是被我們指定合併進來的那個分支(`hotfixes`)。
 
 ![image](https://f.cloud.github.com/assets/88981/1342901/0d32f4e0-366b-11e3-9343-2094141ac4d0.png)
 
