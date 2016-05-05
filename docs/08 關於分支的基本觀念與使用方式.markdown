@@ -132,7 +132,7 @@ Linux kernel 發展的過程，在全世界有成千上萬的開發人員共同�
 查看工作目錄在哪個分支
 --------------------
 
-你可以透過 `git status` 命令，查看目前所在分支，如下圖示：
+你可以透過 `git branch` 命令，查看目前所在分支，如下圖示：
 
 ![image](https://f.cloud.github.com/assets/88981/1269603/0456252c-2cfc-11e3-8cd5-f6146c0b97ee.png)
 
