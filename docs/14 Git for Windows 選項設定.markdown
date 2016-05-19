@@ -87,14 +87,14 @@ Git 選項設定的套用順序
 
 也就是說，你如果再系統層級曾經設定過 `core.autocrlf` 選項，然後在使用者層級又重新定義過一次，那麼最終會套用的 `core.autocrlf` 選項值將會是「使用者層級」的設定值。
 
-不過，若你的執行環境若是使用 Windows Vista 以上並啟用 UAC 使用者存取控制，而且還只用「一般權限」執行這些 Git 命令的話，讀取與討用的順序會多一個判斷：
+不過，若你的執行環境若是使用 Windows Vista 以上並啟用 UAC 使用者存取控制，而且還只用「一般權限」執行這些 Git 命令的話，讀取與套用的順序會多一個判斷：
 
 1. 套用系統層級: `C:\Program Files (x86)\Git\etc\gitconfig`
 2. 套用系統層級: `%LOCALAPPDATA%\VirtualStore\Program Files (x86)\Git\etc\gitconfig`
 3. 套用使用者層級: `%USERPROFILE%\.gitconfig`
 4. 套用儲存區層級: `.git\config` 
 
-若你想要知道目前的工作環境最終套用的選項設定有哪些，可以直接執行 `git config --list` 即可，以取得所有「已設定」的選項設定清單：
+若你想要知道目前的工作環境最終套用的選項設定有哪些，直接執行 `git config --list` 即可以取得所有「已設定」的選項設定清單：
 
 ![image](https://f.cloud.github.com/assets/88981/1323393/3e87a850-347d-11e3-8917-ae729cd8b09e.png)
 
@@ -176,13 +176,13 @@ Git 選項設定的檔案內容其實格式都一樣，我們試著開啟一個*
 
 * 直接編輯設定檔
 
-	有時候直接編輯設定檔會比下指令來的有方便些，所以如果你想要直接從指令列開啟編輯設定檔的話，可以參考以下指令：
+	有時候直接編輯設定檔會比下指令來的方便些，所以如果你想要直接從指令列開啟編輯設定檔的話，可以參考以下指令：
 
 		git config --edit --system
 		git config --edit --global
 		git config --edit --local
 
-	如此一來可以省去開啟檔案總管，並找到路徑的後再開啟檔案的繁瑣步驟。
+	如此一來可以省去開啟檔案總管，並找到路徑後再開啟檔案的繁瑣步驟。
 
 * 自動辨識 CRLF 字元
 
