@@ -16,7 +16,7 @@
 我們手邊改到一半的檔案，可能會有以下狀態：
 
 * 新增檔案 (尚未列入追蹤的檔案) (untracked files)
-* 新增檔案 (已經加入索引的檔案) (tracked/staged files)
+* 新增檔案 (已經加入索引的檔案) (untracked/staged files)
 * 修改檔案 (尚未加入索引的檔案) (tracked/unstaged files)
 * 修改檔案 (已經加入索引的檔案) (tracked/staged files)
 * 刪除檔案 (尚未加入索引的檔案) (tracked/unstaged files)
