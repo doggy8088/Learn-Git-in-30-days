@@ -128,8 +128,8 @@
 
 -------
 * [回目錄](../README.markdown)
-* [前一天](19 設定 .gitignore 忽略清單.markdown)
-* <a href="21 修正 commit 過的版本歷史紀錄 Part 3 (cherry-pick).markdown">下一天</a>
+* [前一天：設定 .gitignore 忽略清單](19.markdown)
+* <a href="21.markdown">下一天：修正 commit 過的版本歷史紀錄 Part 3 (cherry-pick)</a>
 
 -------
 

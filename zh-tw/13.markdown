@@ -361,8 +361,8 @@ Git 的 stash (暫存版) 機制非常非常的實用，尤其是在 IT 業界�
 
 -------
 * [回目錄](../README.markdown)
-* [前一天](12 認識 Git 物件的相對名稱.markdown)
-* [下一天](14 Git for Windows 選項設定.markdown)
+* [前一天：認識 Git 物件的相對名稱](12.markdown)
+* [下一天：Git for Windows 選項設定](14.markdown)
 
 -------
 

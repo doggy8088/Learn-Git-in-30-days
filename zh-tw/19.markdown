@@ -156,8 +156,8 @@
 
 -------
 * [回目錄](../README.markdown)
-* <a href="18 修正 commit 過的版本歷史紀錄 Part 1 (reset & amend).markdown">前一天</a>
-* <a href="20 修正 commit 過的版本歷史紀錄 Part 2 (revert).markdown">下一天</a>
+* <a href="18.markdown">前一天：修正 commit 過的版本歷史紀錄 Part 1 (reset & amend)</a>
+* <a href="20.markdown">下一天：修正 commit 過的版本歷史紀錄 Part 2 (revert)</a>
 
 -------
 

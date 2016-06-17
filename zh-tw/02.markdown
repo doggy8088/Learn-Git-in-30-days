@@ -236,8 +236,8 @@ TODO
 
 -------
 * [回目錄](../README.markdown)
-* [前一天](01 認識 Git 版本控管.markdown)
-* [下一天](03 建立儲存庫.markdown)
+* [前一天：認識 Git 版本控管](01.markdown)
+* [下一天：建立儲存庫](03.markdown)
 
 -------
 
