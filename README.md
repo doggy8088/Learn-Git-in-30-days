@@ -15,7 +15,7 @@ In the software development field, it's very important to know how to use versio
 
 However, CSCSs and DVCSs differ greatly in terms of their concepts and tools for version control, thus causing high learning threshold for beginners. In light of that, in the following 30 days, I hope that everyone can grasp the essence of git version control. I'll share my personal learning experience and how I dealt with all the problems I encountered while my company was switching form subversion to git.
 
-##旅程從現在開始： (Let's embark on our journey now) (^_^) 
+旅程從現在開始： (Let's embark on our journey now) (^_^) 
 ---------------------------------------
 
 * [中文版目錄](zh-tw/TOC.markdown)
