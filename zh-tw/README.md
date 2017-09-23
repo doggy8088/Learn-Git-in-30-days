@@ -47,7 +47,7 @@
 獲獎紀錄
 ----------
 
-* [2013第6屆iT邦幫忙鐵人賽得獎名單出爐!](http://ithelp.ithome.com.tw/question/10142953)
+* [2013第6屆iT邦幫忙鐵人賽得獎名單出爐!](http://ithelp.ithome.com.tw/articles/10142953)
 	* 【iT邦幫忙鐵人賽年度大獎】
 	* 【開發技術組年度鐵人】
 
