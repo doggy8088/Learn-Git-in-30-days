@@ -3,7 +3,7 @@
 
 作者: 黃保翕 ( Will 保哥 )
 
-![Git](https://cloud.githubusercontent.com/assets/88981/7561160/79b1cc50-f7fc-11e4-8077-27335f520328.png)
+![Git](../figures/README/01.png)
 
 文章簡介
 ------------
