@@ -1,4 +1,10 @@
 reset之后第一次commit:1多级几次commit,等待测试reset head~3
 1:哈哈
-1:iii
+
+
+
+2急急急
+1:i   2:reset之后第二次commit   ii
 1:计较
+
+2:看监控接口接口
