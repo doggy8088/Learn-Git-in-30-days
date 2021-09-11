@@ -28,3 +28,8 @@
 * 粉絲頁: [Will 保哥的技術交流中心](https://www.facebook.com/will.fans)
 * 部落格: [The Will Will Web](http://blog.miniasp.com/)
 * 噗　浪: [★★★ Will 保哥的噗浪 ★★★](http://www.plurk.com/willh/invite)
+
+## Stargazers
+
+[![Stargazers repo roster for @doggy8088/Learn-Git-in-30-days](https://reporoster.com/stars/doggy8088/Learn-Git-in-30-days)](https://github.com/doggy8088/Learn-Git-in-30-days/)
+
