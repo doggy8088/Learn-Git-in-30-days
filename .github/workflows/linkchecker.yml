@@ -1,0 +1,35 @@
+# Create a GItHub Actions workflow for me. Here are the steps I need:
+# 1. Install linkchecker
+# 2. Run the following commands
+#   linkchecker --check-extern --no-robots -F "html/utf-8/linkchecker-example.html" https://doggy8088.github.io/Learn-Git-in-30-days/
+# 3. Trigger weekly on sunday midnight at 3am.
+# 4. Deploy artifact
+
+name: Link Checker Weekly
+
+on:
+  schedule:
+    - cron: "0 3 * * 0" # Trigger every Sunday at 3am
+  workflow_dispatch:
+
+jobs:
+  link_checker:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install linkchecker
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y linkchecker
+
+      - name: Run linkchecker
+        run: linkchecker --check-extern --no-robots -F "html/utf-8/linkchecker-result.html" https://doggy8088.github.io/Learn-Git-in-30-days/
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: linkchecker-result
+          path: linkchecker-result.html
