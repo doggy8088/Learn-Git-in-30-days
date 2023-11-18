@@ -13,8 +13,8 @@
 旅程從現在開始： (^_^)
 --------------------------
 
-* [中文版目錄](zh-tw/README.md)
-* [中文版目录-简体](zh-cn/README.md)
+* [中文版目錄](zh-tw/README)
+* [中文版目录-简体](zh-cn/README)
 
 獲獎紀錄
 ----------
@@ -27,8 +27,8 @@
 ---------
 
 * 粉絲頁: [Will 保哥的技術交流中心](https://www.facebook.com/will.fans)
-* 部落格: [The Will Will Web](http://blog.miniasp.com/)
-* 噗　浪: [★★★ Will 保哥的噗浪 ★★★](http://www.plurk.com/willh/invite)
+* 部落格: [The Will Will Web](https://blog.miniasp.com/)
+* 噗　浪: [★★★ Will 保哥的噗浪 ★★★](https://www.plurk.com/willh/invite)
 
 ## Stargazers
 
