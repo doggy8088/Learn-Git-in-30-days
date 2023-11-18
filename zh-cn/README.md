@@ -43,7 +43,7 @@
 
 ## 获奖记录
 
-* [2013 第 6 届 iT 邦帮忙铁人赛得奖名单出炉!](http://ithelp.ithome.com.tw/articles/10142953)
+* [2013 第 6 届 iT 邦帮忙铁人赛得奖名单出炉!](https://ithelp.ithome.com.tw/articles/10142953)
   * 【iT 邦帮忙铁人赛年度大奖】
   * 【开发技术组年度铁人】
 

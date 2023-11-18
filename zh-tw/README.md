@@ -43,7 +43,7 @@
 
 ## 獲獎紀錄
 
-* [2013 第 6 屆 iT 邦幫忙鐵人賽得獎名單出爐!](http://ithelp.ithome.com.tw/articles/10142953)
+* [2013 第 6 屆 iT 邦幫忙鐵人賽得獎名單出爐!](https://ithelp.ithome.com.tw/articles/10142953)
   * 【iT 邦幫忙鐵人賽年度大獎】
   * 【開發技術組年度鐵人】
 
