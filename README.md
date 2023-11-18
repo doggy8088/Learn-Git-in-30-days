@@ -10,8 +10,8 @@
 
 ## 旅程從現在開始： (^\_^)
 
-* [中文版目錄](zh-tw/README)
-* [中文版目录 (简体)](zh-cn/README)
+* [中文版目錄](zh-tw/README.md)
+* [中文版目录 (简体)](zh-cn/README.md)
 
 ## 獲獎紀錄
 
