@@ -26,7 +26,12 @@ jobs:
           sudo apt-get install -y linkchecker
 
       - name: Run linkchecker
-        run: linkchecker --check-extern --no-robots -F "html/utf-8/linkchecker-result.html" https://doggy8088.github.io/Learn-Git-in-30-days/
+        run: |
+          linkchecker --check-extern --no-robots \
+            -F "html/utf-8/linkchecker-result.html" \
+            --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" \
+            --ignore-url=https://www-cs-students.stanford.edu \
+            https://doggy8088.github.io/Learn-Git-in-30-days/
 
       - name: Upload artifact
         uses: actions/upload-artifact@v2
