@@ -34,7 +34,7 @@ jobs:
             https://doggy8088.github.io/Learn-Git-in-30-days/
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: linkchecker-result
           path: linkchecker-result.html
