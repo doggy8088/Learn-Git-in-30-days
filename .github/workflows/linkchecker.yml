@@ -27,7 +27,7 @@ jobs:
 
       - name: Run linkchecker
         run: |
-          linkchecker --check-extern --no-robots --ignore-warnings \
+          linkchecker --check-extern --no-robots --no-warnings \
             -F "html/utf-8/linkchecker-result.html" \
             --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" \
             --ignore-url=https://www-cs-students.stanford.edu \
