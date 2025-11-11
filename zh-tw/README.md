@@ -53,3 +53,4 @@
 * 粉絲頁: [Will 保哥的技術交流中心](https://www.facebook.com/will.fans)
 * 推　特: [Will 保哥 (@Will_Huang)](https://twitter.com/Will_Huang)
 * 噗　浪: [★★★ Will 保哥的噗浪 ★★★](https://www.plurk.com/willh/invite)
+* 脆　　: [Will 保哥](https://www.threads.com/@willh_tw)
