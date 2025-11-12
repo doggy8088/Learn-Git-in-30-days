@@ -5,11 +5,11 @@
 # 3. Trigger weekly on sunday midnight at 3am.
 # 4. Deploy artifact
 
-name: Link Checker Weekly
+name: Link Checker
 
 on:
-  schedule:
-    - cron: "0 3 * * 0" # Trigger every Sunday at 3am
+#  schedule:
+#    - cron: "0 3 * * 0" # Trigger every Sunday at 3am
   workflow_dispatch:
 
 jobs:
