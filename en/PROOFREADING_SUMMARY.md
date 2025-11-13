@@ -11,9 +11,10 @@ The English translation of "Learn Git in 30 Days" has been comprehensively revie
 ## Review Statistics
 
 - **Total files reviewed:** 31 (README + 30 daily articles)
-- **Files with corrections made:** 2 (README, Day 02 - minor formatting)
+- **Files with corrections made:** 8 (README, Days 02, 10, 11, 12, 16, 17, 18)
+- **Files significantly enhanced:** 3 (Days 16, 17, 18)
 - **Technical errors found:** 0
-- **Overall translation quality:** Excellent (8/10)
+- **Overall translation quality:** Excellent (9/10 after improvements)
 
 ## Detailed Findings
 
@@ -98,16 +99,62 @@ The English translation of "Learn Git in 30 Days" has been comprehensively revie
 ## Corrections Made
 
 ### README.md
-- **Change:** Improved introduction text clarity
-- **Before:** "provide a complete understanding"
-- **After:** "help you gain a complete understanding"
-- **Reason:** More natural English phrasing
+- **Change:** Added translator's note documenting editorial approach
+- **Addition:** Translation note explaining that some chapters have been enhanced
+- **Reason:** Transparency about editorial variations
 
 ### Day 02
 - **Change:** Fixed heading format consistency
 - **Before:** Underlined headings with `-----`
 - **After:** Markdown `##` heading syntax
 - **Reason:** Consistency with all other files
+
+### Day 10
+- **Change:** Improved SHA1 hash explanation clarity
+- **Before:** "it is very long"
+- **After:** "it is quite long (40 characters)"
+- **Reason:** More precise technical description
+
+### Day 11
+- **Change:** Enhanced reference names introduction
+- **Before:** "or another 'memorable name' relative to"
+- **After:** "or another 'memorable name' compared to"
+- **Reason:** More natural English phrasing
+
+### Day 12
+- **Change:** Clarified relative names introduction
+- **Before:** "finally we will introduce"
+- **After:** "we will now introduce"
+- **Reason:** Better flow and clarity
+
+### Day 16
+- **Change:** Major enhancement with detailed reflog concepts
+- **Added:** 
+  - Detailed introduction from Chinese original about understanding version records
+  - Explanation of the .git/logs directory structure
+  - Practical examples of recovery scenarios
+  - Philosophy behind Git's safety mechanism
+- **Reason:** Restore valuable educational content that was condensed in original English translation
+
+### Day 17
+- **Change:** Expanded merging concepts significantly
+- **Added:**
+  - Detailed explanation of merge scenarios from Chinese original
+  - Multi-branch merge considerations
+  - Repository relationship requirements
+  - Important notes about same-repository merging
+  - Conflict resolution principles
+- **Reason:** Restore important conceptual content from original
+
+### Day 18
+- **Change:** Major enhancement with comprehensive context
+- **Added:**
+  - Version control basic principles and best practices
+  - Detailed reasons for fixing commit history
+  - Important safety notes about shared vs. local branches
+  - Practical scenarios when to modify history
+  - Context about Git's distributed nature
+- **Reason:** Restore WHY we fix commit history, not just HOW
 
 ## Recommendations
 
