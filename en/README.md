@@ -8,6 +8,8 @@ Author: Will Huang (Will 保哥)
 
 In the field of software development, version control of source code is a very important matter. Unlike centralized version control systems such as Subversion or TFVC (Team Foundation Version Control), Git is a distributed version control system (DVCS; Distributed Version Control System) that brings many advantages to version control and solves the shortcomings of traditional centralized version control, such as support for local operations, easy backup, powerful and flexible branching and merging, and more. However, because Git version control differs greatly from traditional centralized version control tools in both version control concepts and tool usage, it creates a significant learning curve. Over the next 30 days, I hope to help you gain a complete understanding of the essence of Git version control and share my learning experience, along with the problems and solutions we encountered during our company's transition from Subversion to Git.
 
+> **Translation Note:** This English version maintains the core concepts and technical accuracy of the original Traditional Chinese edition while adapting some content for modern Git practices and international audiences. Some chapters have been enhanced with additional examples and current best practices.
+
 ## The Journey Begins Now
 
 * [Day 01: Understanding Git Version Control](01.md)
