@@ -11,10 +11,10 @@ The English translation of "Learn Git in 30 Days" has been comprehensively revie
 ## Review Statistics
 
 - **Total files reviewed:** 31 (README + 30 daily articles)
-- **Files with corrections made:** 8 (README, Days 02, 10, 11, 12, 16, 17, 18)
-- **Files significantly enhanced:** 3 (Days 16, 17, 18)
+- **Files with corrections made:** 11 (README, Days 02, 10, 11, 12, 15, 16, 17, 18, 19, 20)
+- **Files significantly enhanced:** 6 (Days 15, 16, 17, 18, 19, 20)
 - **Technical errors found:** 0
-- **Overall translation quality:** Excellent (9/10 after improvements)
+- **Overall translation quality:** Excellent (9.5/10 after improvements)
 
 ## Detailed Findings
 
@@ -155,6 +155,35 @@ The English translation of "Learn Git in 30 Days" has been comprehensively revie
   - Practical scenarios when to modify history
   - Context about Git's distributed nature
 - **Reason:** Restore WHY we fix commit history, not just HOW
+
+### Day 19
+- **Change:** Enhanced .gitignore explanation
+- **Added:**
+  - Context about temporary files in development environments
+  - Detailed explanation of tracked vs untracked files relationship
+  - Information about GitHub's pre-defined ignore templates
+  - Clarification that .gitignore only affects untracked files
+- **Reason:** Restore important conceptual understanding from Chinese original
+
+### Day 20
+- **Change:** Enhanced git revert explanation with practical context
+- **Added:**
+  - Practical scenario about discovering wrong commits
+  - Detailed explanation of "reverse" steps concept
+  - Important note about clean working directory requirement
+  - Explanation of revert commit message format
+- **Reason:** Add practical context to make the concept more understandable
+
+### Day 15
+- **Change:** Significantly enhanced tag concepts
+- **Added:**
+  - Poetic introduction about version accumulation over time
+  - Connections to Day 11 (reference names) and Day 06 (object structure)
+  - Detailed comparison between lightweight and annotated tags
+  - Important notes about tag objects being permanent in Git storage
+  - Explanation of tag object immutability
+  - Practical usage patterns and commands
+- **Reason:** Restore important conceptual connections showing how tags fit into Git's architecture
 
 ## Recommendations
 
