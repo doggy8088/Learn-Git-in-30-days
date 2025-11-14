@@ -93,7 +93,7 @@ Each document will be reviewed following these steps:
 - [x] Day 11: 認識 Git 物件的一般參照與符號參照 / Understanding Git Object References ✅ **Enhanced** - Improved readability
 - [x] Day 12: 認識 Git 物件的相對名稱 / Understanding Git Object Relative Names ✅ **Enhanced** - Clarified introduction
 - [x] Day 13: 暫存工作目錄與索引的變更狀態 / Stashing Changes ✅ **Enhanced** - Added practical workflow example
-- [ ] Day 14: Git for Windows 選項設定 / Git for Windows Configuration Options ⏳ **Pending Review**
+- [x] Day 14: Git for Windows 選項設定 / Git for Windows Configuration Options ✅ **Enhanced** - Added Windows UAC/VirtualStore details
 - [x] Day 15: 標籤 - 標記版本控制過程中的重要事件 / Tags - Marking Important Events ✅ **Significantly Enhanced** - Tag concepts & object relationships
 - [x] Day 16: 善用版本日誌 git reflog 追蹤變更軌跡 / Using git reflog to Track Change History ✅ **Significantly Enhanced** - Reflog mechanisms & recovery philosophy
 - [x] Day 17: 關於合併的基本觀念與使用方式 / Basic Concepts and Usage of Merging ✅ **Significantly Enhanced** - Merging concepts & scenarios
@@ -154,12 +154,12 @@ Each document will be reviewed following these steps:
 
 **Completion Statistics:**
 - Total files to review: 31 (README + 30 daily articles)
-- **Files improved/enhanced: 15** (48%)
-  - README, Days 02, 10-13, 15-23
+- **Files improved/enhanced: 16** (52%)
+  - README, Days 02, 10-14, 15-23
 - **Files reviewed & verified good quality: 9** (29%)
   - Days 01, 03-09
-- **Files pending review: 7** (23%)
-  - Day 14, Days 24-30 (contain intentionally modernized content)
+- **Files pending review: 6** (19%)
+  - Days 24-30 (contain intentionally modernized content)
 
 **Quality Improvement:**
 - Initial assessment: 8.5/10
@@ -167,11 +167,11 @@ Each document will be reviewed following these steps:
 - Technical accuracy: 100% maintained
 
 **Work Summary:**
-- **Total processed: 24 of 31 files (77%)**
-- **Significantly enhanced: 10 files** (Days 13, 15-23)
+- **Total processed: 25 of 31 files (81%)**
+- **Significantly enhanced: 11 files** (Days 13-23)
 - All corrections documented in `en/PROOFREADING_SUMMARY.md`
 
-**Estimated completion:** Phase 2 is 77% complete. Remaining 7 files require decision on whether to maintain modernized content or align with Chinese original.
+**Estimated completion:** Phase 2 is 81% complete. Remaining 6 files (Days 24-30) contain modernized GitHub/remote repository content.
 
 ## Notes and Observations
 
