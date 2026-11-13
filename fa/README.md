@@ -54,5 +54,4 @@
 * وبلاگ: [The Will Will Web](https://blog.miniasp.com/)
 * صفحه فیس‌بوک: [Will 保哥的技術交流中心](https://www.facebook.com/will.fans)
 * توییتر: [Will 保哥 (@Will_Huang)](https://twitter.com/Will_Huang)
-* Plurk: [★★★ Will 保哥的噗浪 ★★★](https://www.plurk.com/willh/invite)
 * Threads: [Will 保哥](https://www.threads.com/@willh_tw)
