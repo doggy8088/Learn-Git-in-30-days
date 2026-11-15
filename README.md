@@ -28,6 +28,3 @@
 * 推　特: [Will 保哥 (@Will_Huang)](https://twitter.com/Will_Huang)
 * Threads: [Will 保哥](https://www.threads.com/@willh_tw)
 
-## Stargazers
-
-[Stargazers repo roster for @doggy8088/Learn-Git-in-30-days](https://reporoster.com/stars/doggy8088/Learn-Git-in-30-days)
