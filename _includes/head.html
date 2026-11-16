@@ -3,6 +3,7 @@
 {% assign ui = site.data.ui[page.book_lang] %}
 {% capture page_title %}{% if page.title and page.title != ui.book_title %}{{ page.title }} · {% endif %}{{ ui.book_title }}{% endcapture %}
 {% assign page_desc = page.excerpt | strip_html | strip_newlines | strip | truncate: 155 %}
+{% if page_desc == '' and page.title and page.title != ui.book_title %}{% assign page_desc = page.title | append: ' — ' | append: ui.book_title | append: '，作者：黃保翕 (Will 保哥)，2013 第 6 屆 iT 邦幫忙鐵人賽年度大獎作品，共有四種語言版本。' | truncate: 155 %}{% endif %}
 {% if page_desc == '' %}{% assign page_desc = ui.footer_note | default: site.description %}{% endif %}
 {% assign og_image = '/assets/img/og-' | append: page.book_lang | append: '.jpg' | absolute_url %}
 {% case page.book_lang %}
