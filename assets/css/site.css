@@ -439,12 +439,14 @@ body.lang-fa .pn-title { font-family: var(--font-sans); font-weight: 700; }
 .phase h3 { font-family: var(--font-serif); font-size: 1.18rem; margin: 0; }
 .phase p { margin: 0; color: var(--ink-soft); line-height: 1.8; }
 .peek-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; align-items: start; }
-.shot { margin: 0; background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; box-shadow: var(--shadow); }
+.shot { margin: 0; background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; box-shadow: var(--shadow); display: flex; flex-direction: column; }
+.shot-body { flex: 1; display: flex; align-items: center; justify-content: center; background: var(--paper-2); padding: 1.1rem; }
+.shot-body img { max-width: 100%; width: auto; height: auto; max-height: 540px; object-fit: contain; display: block; border-radius: 6px; }
 .shot-bar { display: flex; align-items: center; gap: 6px; padding: .55rem .9rem; background: var(--paper-2); border-bottom: 1px solid var(--line-soft); }
 .shot-bar span { width: 10px; height: 10px; border-radius: 50%; background: var(--line); }
 .shot-bar span:nth-child(1) { background: #f0644f; } .shot-bar span:nth-child(2) { background: #f5bf4f; } .shot-bar span:nth-child(3) { background: #61c454; }
 .shot-bar em { font-style: normal; font-size: .8rem; color: var(--muted); margin-inline-start: .5rem; }
-.shot img { width: 100%; height: auto; display: block; }
+
 .about-inner { max-width: 46.5rem; }
 .about p { font-size: 1.06rem; line-height: 1.95; color: var(--ink-soft); }
 .about-links { display: flex; gap: 1.4rem; flex-wrap: wrap; }
