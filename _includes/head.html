@@ -10,6 +10,12 @@
 {% when 'zh-tw' %}{% assign og_locale = 'zh_TW' %}
 {% when 'zh-cn' %}{% assign og_locale = 'zh_CN' %}
 {% when 'fa' %}{% assign og_locale = 'fa_IR' %}
+{% when 'ja' %}{% assign og_locale = 'ja_JP' %}
+{% when 'ko' %}{% assign og_locale = 'ko_KR' %}
+{% when 'vi' %}{% assign og_locale = 'vi_VN' %}
+{% when 'th' %}{% assign og_locale = 'th_TH' %}
+{% when 'id' %}{% assign og_locale = 'id_ID' %}
+{% when 'ms' %}{% assign og_locale = 'ms_MY' %}
 {% else %}{% assign og_locale = 'en_US' %}
 {% endcase %}
 <title>{{ page_title }}</title>
@@ -24,6 +30,12 @@
 <link rel="alternate" hreflang="zh-Hans" href="{{ '/zh-cn/' | absolute_url }}">
 <link rel="alternate" hreflang="en" href="{{ '/en/' | absolute_url }}">
 <link rel="alternate" hreflang="fa" href="{{ '/fa/' | absolute_url }}">
+<link rel="alternate" hreflang="ja" href="{{ '/ja/' | absolute_url }}">
+<link rel="alternate" hreflang="ko" href="{{ '/ko/' | absolute_url }}">
+<link rel="alternate" hreflang="vi" href="{{ '/vi/' | absolute_url }}">
+<link rel="alternate" hreflang="th" href="{{ '/th/' | absolute_url }}">
+<link rel="alternate" hreflang="id" href="{{ '/id/' | absolute_url }}">
+<link rel="alternate" hreflang="ms" href="{{ '/ms/' | absolute_url }}">
 <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
 {% else %}
 {% assign cur_prefix = '/' | append: page.book_lang | append: '/' %}
@@ -39,7 +51,7 @@
 <meta property="og:type" content="{% if page.layout == 'landing' %}book{% else %}website{% endif %}">
 <meta property="og:site_name" content="{{ ui.book_title }}">
 <meta property="og:locale" content="{{ og_locale }}">
-{% for pair in site.data.ui %}{% assign other = pair[0] %}{% if other != page.book_lang %}{% case other %}{% when 'zh-tw' %}{% assign alt_loc = 'zh_TW' %}{% when 'zh-cn' %}{% assign alt_loc = 'zh_CN' %}{% when 'fa' %}{% assign alt_loc = 'fa_IR' %}{% else %}{% assign alt_loc = 'en_US' %}{% endcase %}<meta property="og:locale:alternate" content="{{ alt_loc }}">
+{% for pair in site.data.ui %}{% assign other = pair[0] %}{% if other != page.book_lang %}{% case other %}{% when 'zh-tw' %}{% assign alt_loc = 'zh_TW' %}{% when 'zh-cn' %}{% assign alt_loc = 'zh_CN' %}{% when 'fa' %}{% assign alt_loc = 'fa_IR' %}{% when 'ja' %}{% assign alt_loc = 'ja_JP' %}{% when 'ko' %}{% assign alt_loc = 'ko_KR' %}{% when 'vi' %}{% assign alt_loc = 'vi_VN' %}{% when 'th' %}{% assign alt_loc = 'th_TH' %}{% when 'id' %}{% assign alt_loc = 'id_ID' %}{% when 'ms' %}{% assign alt_loc = 'ms_MY' %}{% else %}{% assign alt_loc = 'en_US' %}{% endcase %}<meta property="og:locale:alternate" content="{{ alt_loc }}">
 {% endif %}{% endfor %}<meta property="og:title" content="{{ page_title | escape }}">
 <meta property="og:description" content="{{ page_desc | escape }}">
 <meta property="og:url" content="{{ page.url | absolute_url }}">
@@ -65,7 +77,7 @@
   "url": "{{ '/' | absolute_url }}",
   "image": "{{ og_image }}",
   "description": "{{ site.description | escape }}",
-  "inLanguage": ["zh-TW", "zh-CN", "en", "fa"],
+  "inLanguage": ["zh-TW", "zh-CN", "en", "fa", "ja", "ko", "vi", "th", "id", "ms"],
   "bookFormat": "https://schema.org/EBook",
   "award": "2013 第 6 屆 iT 邦幫忙鐵人賽年度大獎",
   "isAccessibleForFree": true
@@ -89,6 +101,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 {% elsif page.book_lang == 'fa' %}
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+{% elsif page.book_lang == 'ja' %}
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@600;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+{% elsif page.book_lang == 'ko' %}
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@600;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+{% elsif page.book_lang == 'vi' %}
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&family=Noto+Serif:wght@600;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+{% elsif page.book_lang == 'th' %}
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;700&family=Noto+Serif+Thai:wght@600;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 {% else %}
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,600;6..72,700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 {% endif %}

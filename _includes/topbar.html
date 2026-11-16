@@ -11,7 +11,7 @@
     <div class="lang-switch">
       <button class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.7 2.6 4 5.6 4 9s-1.3 6.4-4 9c-2.7-2.6-4-5.6-4-9s1.3-6.4 4-9z"/></svg>
-        <span>{% case page.book_lang %}{% when 'zh-tw' %}繁體中文{% when 'zh-cn' %}简体中文{% when 'en' %}English{% when 'fa' %}فارسی{% endcase %}</span>
+        <span>{% case page.book_lang %}{% when 'zh-tw' %}繁體中文{% when 'zh-cn' %}简体中文{% when 'en' %}English{% when 'fa' %}فارسی{% when 'ja' %}日本語{% when 'ko' %}한국어{% when 'vi' %}Tiếng Việt{% when 'th' %}ภาษาไทย{% when 'id' %}Bahasa Indonesia{% when 'ms' %}Bahasa Melayu{% endcase %}</span>
         <svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 3.5 5 6.5 8 3.5" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>
       </button>
       <div class="lang-menu" id="langMenu" role="menu">
@@ -19,6 +19,12 @@
         <a href="#" data-set-lang="zh-cn" role="menuitem">简体中文 <span class="lang-note">Simplified</span></a>
         <a href="#" data-set-lang="en" role="menuitem">English</a>
         <a href="#" data-set-lang="fa" role="menuitem">فارسی <span class="lang-note">Persian</span></a>
+        <a href="#" data-set-lang="ja" role="menuitem">日本語 <span class="lang-note">Japanese</span></a>
+        <a href="#" data-set-lang="ko" role="menuitem">한국어 <span class="lang-note">Korean</span></a>
+        <a href="#" data-set-lang="vi" role="menuitem">Tiếng Việt <span class="lang-note">Vietnamese</span></a>
+        <a href="#" data-set-lang="th" role="menuitem">ภาษาไทย <span class="lang-note">Thai</span></a>
+        <a href="#" data-set-lang="id" role="menuitem">Bahasa Indonesia <span class="lang-note">Indonesian</span></a>
+        <a href="#" data-set-lang="ms" role="menuitem">Bahasa Melayu <span class="lang-note">Malay</span></a>
       </div>
     </div>
     <button class="icon-btn" id="themeBtn" aria-label="Theme">

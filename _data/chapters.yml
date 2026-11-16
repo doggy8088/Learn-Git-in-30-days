@@ -1,364 +1,910 @@
 zh-tw:
-  - n: "01"
-    t: "認識 Git 版本控管"
-    full: "第 01 天：認識 Git 版本控管"
-  - n: "02"
-    t: "在 Windows 平台必裝的三套 Git 工具"
-    full: "第 02 天：在 Windows 平台必裝的三套 Git 工具"
-  - n: "03"
-    t: "建立儲存庫"
-    full: "第 03 天：建立儲存庫"
-  - n: "04"
-    t: "常用的 Git 版本控管指令"
-    full: "第 04 天：常用的 Git 版本控管指令"
-  - n: "05"
-    t: "了解儲存庫、工作目錄、物件與索引之間的關係"
-    full: "第 05 天：了解儲存庫、工作目錄、物件與索引之間的關係"
-  - n: "06"
-    t: "解析 Git 資料結構 - 物件結構"
-    full: "第 06 天：解析 Git 資料結構 - 物件結構"
-  - n: "07"
-    t: "解析 Git 資料結構 - 索引結構"
-    full: "第 07 天：解析 Git 資料結構 - 索引結構"
-  - n: "08"
-    t: "關於分支的基本觀念與使用方式"
-    full: "第 08 天：關於分支的基本觀念與使用方式"
-  - n: "09"
-    t: "比對檔案與版本差異"
-    full: "第 09 天：比對檔案與版本差異"
-  - n: "10"
-    t: "認識 Git 物件的絕對名稱"
-    full: "第 10 天：認識 Git 物件的絕對名稱"
-  - n: "11"
-    t: "認識 Git 物件的一般參照與符號參照"
-    full: "第 11 天：認識 Git 物件的一般參照與符號參照"
-  - n: "12"
-    t: "認識 Git 物件的相對名稱"
-    full: "第 12 天：認識 Git 物件的相對名稱"
-  - n: "13"
-    t: "暫存工作目錄與索引的變更狀態"
-    full: "第 13 天：暫存工作目錄與索引的變更狀態"
-  - n: "14"
-    t: "Git for Windows 選項設定"
-    full: "第 14 天：Git for Windows 選項設定"
-  - n: "15"
-    t: "標籤 - 標記版本控制過程中的重要事件"
-    full: "第 15 天：標籤 - 標記版本控制過程中的重要事件"
-  - n: "16"
-    t: "善用版本日誌 git reflog 追蹤變更軌跡"
-    full: "第 16 天：善用版本日誌 git reflog 追蹤變更軌跡"
-  - n: "17"
-    t: "關於合併的基本觀念與使用方式"
-    full: "第 17 天：關於合併的基本觀念與使用方式"
-  - n: "18"
-    t: "修正 commit 過的版本歷史紀錄 Part 1 (reset & amend)"
-    full: "第 18 天：修正 commit 過的版本歷史紀錄 Part 1 (reset & amend)"
-  - n: "19"
-    t: "設定 .gitignore 忽略清單"
-    full: "第 19 天：設定 .gitignore 忽略清單"
-  - n: "20"
-    t: "修正 commit 過的版本歷史紀錄 Part 2 (revert)"
-    full: "第 20 天：修正 commit 過的版本歷史紀錄 Part 2 (revert)"
-  - n: "21"
-    t: "修正 commit 過的版本歷史紀錄 Part 3 (cherry-pick)"
-    full: "第 21 天：修正 commit 過的版本歷史紀錄 Part 3 (cherry-pick)"
-  - n: "22"
-    t: "修正 commit 過的版本歷史紀錄 Part 4 (rebase)"
-    full: "第 22 天：修正 commit 過的版本歷史紀錄 Part 4 (rebase)"
-  - n: "23"
-    t: "修正 commit 過的版本歷史紀錄 Part 5 (rebase 2)"
-    full: "第 23 天：修正 commit 過的版本歷史紀錄 Part 5 (rebase 2)"
-  - n: "24"
-    t: "使用 GitHub 遠端儲存庫 - 入門篇"
-    full: "第 24 天：使用 GitHub 遠端儲存庫 - 入門篇"
-  - n: "25"
-    t: "使用 GitHub 遠端儲存庫 - 觀念篇"
-    full: "第 25 天：使用 GitHub 遠端儲存庫 - 觀念篇"
-  - n: "26"
-    t: "多人在同一個遠端儲存庫中進行版控"
-    full: "第 26 天：多人在同一個遠端儲存庫中進行版控"
-  - n: "27"
-    t: "透過分支在同一個遠端儲存庫中進行版控"
-    full: "第 27 天：透過分支在同一個遠端儲存庫中進行版控"
-  - n: "28"
-    t: "了解 GitHub 上 forks 與 pull request 的版控流程"
-    full: "第 28 天：了解 GitHub 上 forks 與 pull request 的版控流程"
-  - n: "29"
-    t: "如何將 Subversion 專案匯入到 Git 儲存庫"
-    full: "第 29 天：如何將 Subversion 專案匯入到 Git 儲存庫"
-  - n: "30"
-    t: "分享工作中幾個好用的 Git 操作技巧"
-    full: "第 30 天：分享工作中幾個好用的 Git 操作技巧"
+- n: '01'
+  t: 認識 Git 版本控管
+  full: 第 01 天：認識 Git 版本控管
+- n: '02'
+  t: 在 Windows 平台必裝的三套 Git 工具
+  full: 第 02 天：在 Windows 平台必裝的三套 Git 工具
+- n: '03'
+  t: 建立儲存庫
+  full: 第 03 天：建立儲存庫
+- n: '04'
+  t: 常用的 Git 版本控管指令
+  full: 第 04 天：常用的 Git 版本控管指令
+- n: '05'
+  t: 了解儲存庫、工作目錄、物件與索引之間的關係
+  full: 第 05 天：了解儲存庫、工作目錄、物件與索引之間的關係
+- n: '06'
+  t: 解析 Git 資料結構 - 物件結構
+  full: 第 06 天：解析 Git 資料結構 - 物件結構
+- n: '07'
+  t: 解析 Git 資料結構 - 索引結構
+  full: 第 07 天：解析 Git 資料結構 - 索引結構
+- n: 08
+  t: 關於分支的基本觀念與使用方式
+  full: 第 08 天：關於分支的基本觀念與使用方式
+- n: 09
+  t: 比對檔案與版本差異
+  full: 第 09 天：比對檔案與版本差異
+- n: '10'
+  t: 認識 Git 物件的絕對名稱
+  full: 第 10 天：認識 Git 物件的絕對名稱
+- n: '11'
+  t: 認識 Git 物件的一般參照與符號參照
+  full: 第 11 天：認識 Git 物件的一般參照與符號參照
+- n: '12'
+  t: 認識 Git 物件的相對名稱
+  full: 第 12 天：認識 Git 物件的相對名稱
+- n: '13'
+  t: 暫存工作目錄與索引的變更狀態
+  full: 第 13 天：暫存工作目錄與索引的變更狀態
+- n: '14'
+  t: Git for Windows 選項設定
+  full: 第 14 天：Git for Windows 選項設定
+- n: '15'
+  t: 標籤 - 標記版本控制過程中的重要事件
+  full: 第 15 天：標籤 - 標記版本控制過程中的重要事件
+- n: '16'
+  t: 善用版本日誌 git reflog 追蹤變更軌跡
+  full: 第 16 天：善用版本日誌 git reflog 追蹤變更軌跡
+- n: '17'
+  t: 關於合併的基本觀念與使用方式
+  full: 第 17 天：關於合併的基本觀念與使用方式
+- n: '18'
+  t: 修正 commit 過的版本歷史紀錄 Part 1 (reset & amend)
+  full: 第 18 天：修正 commit 過的版本歷史紀錄 Part 1 (reset & amend)
+- n: '19'
+  t: 設定 .gitignore 忽略清單
+  full: 第 19 天：設定 .gitignore 忽略清單
+- n: '20'
+  t: 修正 commit 過的版本歷史紀錄 Part 2 (revert)
+  full: 第 20 天：修正 commit 過的版本歷史紀錄 Part 2 (revert)
+- n: '21'
+  t: 修正 commit 過的版本歷史紀錄 Part 3 (cherry-pick)
+  full: 第 21 天：修正 commit 過的版本歷史紀錄 Part 3 (cherry-pick)
+- n: '22'
+  t: 修正 commit 過的版本歷史紀錄 Part 4 (rebase)
+  full: 第 22 天：修正 commit 過的版本歷史紀錄 Part 4 (rebase)
+- n: '23'
+  t: 修正 commit 過的版本歷史紀錄 Part 5 (rebase 2)
+  full: 第 23 天：修正 commit 過的版本歷史紀錄 Part 5 (rebase 2)
+- n: '24'
+  t: 使用 GitHub 遠端儲存庫 - 入門篇
+  full: 第 24 天：使用 GitHub 遠端儲存庫 - 入門篇
+- n: '25'
+  t: 使用 GitHub 遠端儲存庫 - 觀念篇
+  full: 第 25 天：使用 GitHub 遠端儲存庫 - 觀念篇
+- n: '26'
+  t: 多人在同一個遠端儲存庫中進行版控
+  full: 第 26 天：多人在同一個遠端儲存庫中進行版控
+- n: '27'
+  t: 透過分支在同一個遠端儲存庫中進行版控
+  full: 第 27 天：透過分支在同一個遠端儲存庫中進行版控
+- n: '28'
+  t: 了解 GitHub 上 forks 與 pull request 的版控流程
+  full: 第 28 天：了解 GitHub 上 forks 與 pull request 的版控流程
+- n: '29'
+  t: 如何將 Subversion 專案匯入到 Git 儲存庫
+  full: 第 29 天：如何將 Subversion 專案匯入到 Git 儲存庫
+- n: '30'
+  t: 分享工作中幾個好用的 Git 操作技巧
+  full: 第 30 天：分享工作中幾個好用的 Git 操作技巧
 zh-cn:
-  - n: "01"
-    t: "认识 Git 版本控制"
-    full: "第 01 天：认识 Git 版本控制"
-  - n: "02"
-    t: "在 Windows 平台必装的三套 Git 工具"
-    full: "第 02 天：在 Windows 平台必装的三套 Git 工具"
-  - n: "03"
-    t: "建立存储库"
-    full: "第 03 天：建立存储库"
-  - n: "04"
-    t: "常用的 Git 版本控制指令"
-    full: "第 04 天：常用的 Git 版本控制指令"
-  - n: "05"
-    t: "了解存储库、工作目录、物件与索引之间的关系"
-    full: "第 05 天：了解存储库、工作目录、物件与索引之间的关系"
-  - n: "06"
-    t: "解析 Git 资料结构 - 物件结构"
-    full: "第 06 天：解析 Git 资料结构 - 物件结构"
-  - n: "07"
-    t: "解析 Git 资料结构 - 索引结构"
-    full: "第 07 天：解析 Git 资料结构 - 索引结构"
-  - n: "08"
-    t: "关于分支的基本概念与使用方式"
-    full: "第 08 天：关于分支的基本概念与使用方式"
-  - n: "09"
-    t: "比对文件与版本差异"
-    full: "第 09 天：比对文件与版本差异"
-  - n: "10"
-    t: "认识 Git 物件的绝对名称"
-    full: "第 10 天：认识 Git 物件的绝对名称"
-  - n: "11"
-    t: "认识 Git 物件的一般参照与符号参照"
-    full: "第 11 天：认识 Git 物件的一般参照与符号参照"
-  - n: "12"
-    t: "认识 Git 物件的相对名称"
-    full: "第 12 天：认识 Git 物件的相对名称"
-  - n: "13"
-    t: "暂存工作目录与索引的变更状态"
-    full: "第 13 天：暂存工作目录与索引的变更状态"
-  - n: "14"
-    t: "Git for Windows 选项设置"
-    full: "第 14 天：Git for Windows 选项设置"
-  - n: "15"
-    t: "标签 - 标记版本控制过程中的重要事件"
-    full: "第 15 天：标签 - 标记版本控制过程中的重要事件"
-  - n: "16"
-    t: "善用版本日志 git reflog 追踪变更记录"
-    full: "第 16 天：善用版本日志 git reflog 追踪变更记录"
-  - n: "17"
-    t: "关于合并的基本概念与使用方式"
-    full: "第 17 天：关于合并的基本概念与使用方式"
-  - n: "18"
-    t: "修正 commit 过的版本历史记录 Part 1 (reset & amend)"
-    full: "第 18 天：修正 commit 过的版本历史记录 Part 1 (reset & amend)"
-  - n: "19"
-    t: "设置 .gitignore 忽略清单"
-    full: "第 19 天：设置 .gitignore 忽略清单"
-  - n: "20"
-    t: "修正 commit 过的版本历史记录 Part 2 (revert)"
-    full: "第 20 天：修正 commit 过的版本历史记录 Part 2 (revert)"
-  - n: "21"
-    t: "修正 commit 过的版本历史记录 Part 3 (cherry-pick)"
-    full: "第 21 天：修正 commit 过的版本历史记录 Part 3 (cherry-pick)"
-  - n: "22"
-    t: "修正 commit 过的版本历史记录 Part 4 (rebase)"
-    full: "第 22 天：修正 commit 过的版本历史记录 Part 4 (rebase)"
-  - n: "23"
-    t: "修正 commit 过的版本历史记录 Part 5 (rebase 2)"
-    full: "第 23 天：修正 commit 过的版本历史记录 Part 5 (rebase 2)"
-  - n: "24"
-    t: "使用 GitHub 远程存储库 - 入门篇"
-    full: "第 24 天：使用 GitHub 远程存储库 - 入门篇"
-  - n: "25"
-    t: "使用 GitHub 远程存储库 - 概念篇"
-    full: "第 25 天：使用 GitHub 远程存储库 - 概念篇"
-  - n: "26"
-    t: "多人在同一个远程存储库中进行版本控制"
-    full: "第 26 天：多人在同一个远程存储库中进行版本控制"
-  - n: "27"
-    t: "通过分支在同一个远程存储库中进行版本控制"
-    full: "第 27 天：通过分支在同一个远程存储库中进行版本控制"
-  - n: "28"
-    t: "了解 GitHub 上 forks 与 pull request 的版本控制流程"
-    full: "第 28 天：了解 GitHub 上 forks 与 pull request 的版本控制流程"
-  - n: "29"
-    t: "如何将 Subversion 转到 Git 存储库"
-    full: "第 29 天：如何将 Subversion 转到 Git 存储库"
-  - n: "30"
-    t: "分享工作中几个好用的 Git 操作技巧"
-    full: "第 30 天：分享工作中几个好用的 Git 操作技巧"
+- n: '01'
+  t: 认识 Git 版本控制
+  full: 第 01 天：认识 Git 版本控制
+- n: '02'
+  t: 在 Windows 平台必装的三套 Git 工具
+  full: 第 02 天：在 Windows 平台必装的三套 Git 工具
+- n: '03'
+  t: 建立存储库
+  full: 第 03 天：建立存储库
+- n: '04'
+  t: 常用的 Git 版本控制指令
+  full: 第 04 天：常用的 Git 版本控制指令
+- n: '05'
+  t: 了解存储库、工作目录、物件与索引之间的关系
+  full: 第 05 天：了解存储库、工作目录、物件与索引之间的关系
+- n: '06'
+  t: 解析 Git 资料结构 - 物件结构
+  full: 第 06 天：解析 Git 资料结构 - 物件结构
+- n: '07'
+  t: 解析 Git 资料结构 - 索引结构
+  full: 第 07 天：解析 Git 资料结构 - 索引结构
+- n: 08
+  t: 关于分支的基本概念与使用方式
+  full: 第 08 天：关于分支的基本概念与使用方式
+- n: 09
+  t: 比对文件与版本差异
+  full: 第 09 天：比对文件与版本差异
+- n: '10'
+  t: 认识 Git 物件的绝对名称
+  full: 第 10 天：认识 Git 物件的绝对名称
+- n: '11'
+  t: 认识 Git 物件的一般参照与符号参照
+  full: 第 11 天：认识 Git 物件的一般参照与符号参照
+- n: '12'
+  t: 认识 Git 物件的相对名称
+  full: 第 12 天：认识 Git 物件的相对名称
+- n: '13'
+  t: 暂存工作目录与索引的变更状态
+  full: 第 13 天：暂存工作目录与索引的变更状态
+- n: '14'
+  t: Git for Windows 选项设置
+  full: 第 14 天：Git for Windows 选项设置
+- n: '15'
+  t: 标签 - 标记版本控制过程中的重要事件
+  full: 第 15 天：标签 - 标记版本控制过程中的重要事件
+- n: '16'
+  t: 善用版本日志 git reflog 追踪变更记录
+  full: 第 16 天：善用版本日志 git reflog 追踪变更记录
+- n: '17'
+  t: 关于合并的基本概念与使用方式
+  full: 第 17 天：关于合并的基本概念与使用方式
+- n: '18'
+  t: 修正 commit 过的版本历史记录 Part 1 (reset & amend)
+  full: 第 18 天：修正 commit 过的版本历史记录 Part 1 (reset & amend)
+- n: '19'
+  t: 设置 .gitignore 忽略清单
+  full: 第 19 天：设置 .gitignore 忽略清单
+- n: '20'
+  t: 修正 commit 过的版本历史记录 Part 2 (revert)
+  full: 第 20 天：修正 commit 过的版本历史记录 Part 2 (revert)
+- n: '21'
+  t: 修正 commit 过的版本历史记录 Part 3 (cherry-pick)
+  full: 第 21 天：修正 commit 过的版本历史记录 Part 3 (cherry-pick)
+- n: '22'
+  t: 修正 commit 过的版本历史记录 Part 4 (rebase)
+  full: 第 22 天：修正 commit 过的版本历史记录 Part 4 (rebase)
+- n: '23'
+  t: 修正 commit 过的版本历史记录 Part 5 (rebase 2)
+  full: 第 23 天：修正 commit 过的版本历史记录 Part 5 (rebase 2)
+- n: '24'
+  t: 使用 GitHub 远程存储库 - 入门篇
+  full: 第 24 天：使用 GitHub 远程存储库 - 入门篇
+- n: '25'
+  t: 使用 GitHub 远程存储库 - 概念篇
+  full: 第 25 天：使用 GitHub 远程存储库 - 概念篇
+- n: '26'
+  t: 多人在同一个远程存储库中进行版本控制
+  full: 第 26 天：多人在同一个远程存储库中进行版本控制
+- n: '27'
+  t: 通过分支在同一个远程存储库中进行版本控制
+  full: 第 27 天：通过分支在同一个远程存储库中进行版本控制
+- n: '28'
+  t: 了解 GitHub 上 forks 与 pull request 的版本控制流程
+  full: 第 28 天：了解 GitHub 上 forks 与 pull request 的版本控制流程
+- n: '29'
+  t: 如何将 Subversion 转到 Git 存储库
+  full: 第 29 天：如何将 Subversion 转到 Git 存储库
+- n: '30'
+  t: 分享工作中几个好用的 Git 操作技巧
+  full: 第 30 天：分享工作中几个好用的 Git 操作技巧
 en:
-  - n: "01"
-    t: "Understanding Git Version Control"
-    full: "Day 01: Understanding Git Version Control"
-  - n: "02"
-    t: "Three Essential Git Tools for Windows Platform"
-    full: "Day 02: Three Essential Git Tools for Windows Platform"
-  - n: "03"
-    t: "Creating a Repository"
-    full: "Day 03: Creating a Repository"
-  - n: "04"
-    t: "Common Git Version Control Commands"
-    full: "Day 04: Common Git Version Control Commands"
-  - n: "05"
-    t: "Understanding the Relationship Between Repository, Working Directory, Objects, and Index"
-    full: "Day 05: Understanding the Relationship Between Repository, Working Directory, Objects, and Index"
-  - n: "06"
-    t: "Parsing Git Data Structure - Object Structure"
-    full: "Day 06: Parsing Git Data Structure - Object Structure"
-  - n: "07"
-    t: "Parsing Git Data Structure - Index Structure"
-    full: "Day 07: Parsing Git Data Structure - Index Structure"
-  - n: "08"
-    t: "Basic Concepts and Usage of Branches"
-    full: "Day 08: Basic Concepts and Usage of Branches"
-  - n: "09"
-    t: "Comparing File and Version Differences"
-    full: "Day 09: Comparing File and Version Differences"
-  - n: "10"
-    t: "Understanding Git Object Absolute Names"
-    full: "Day 10: Understanding Git Object Absolute Names"
-  - n: "11"
-    t: "Understanding Git Object References and Symbolic References"
-    full: "Day 11: Understanding Git Object References and Symbolic References"
-  - n: "12"
-    t: "Understanding Git Object Relative Names"
-    full: "Day 12: Understanding Git Object Relative Names"
-  - n: "13"
-    t: "Stashing Changes in Working Directory and Index"
-    full: "Day 13: Stashing Changes in Working Directory and Index"
-  - n: "14"
-    t: "Git for Windows Configuration Options"
-    full: "Day 14: Git for Windows Configuration Options"
-  - n: "15"
-    t: "Tags - Marking Important Events in Version Control"
-    full: "Day 15: Tags - Marking Important Events in Version Control"
-  - n: "16"
-    t: "Using git reflog to Track Change History"
-    full: "Day 16: Using git reflog to Track Change History"
-  - n: "17"
-    t: "Basic Concepts and Usage of Merging"
-    full: "Day 17: Basic Concepts and Usage of Merging"
-  - n: "18"
-    t: "Fixing Committed Version History Part 1 (reset & amend)"
-    full: "Day 18: Fixing Committed Version History Part 1 (reset & amend)"
-  - n: "19"
-    t: "Setting .gitignore Ignore List"
-    full: "Day 19: Setting .gitignore Ignore List"
-  - n: "20"
-    t: "Fixing Committed Version History Part 2 (revert)"
-    full: "Day 20: Fixing Committed Version History Part 2 (revert)"
-  - n: "21"
-    t: "Fixing Committed Version History Part 3 (cherry-pick)"
-    full: "Day 21: Fixing Committed Version History Part 3 (cherry-pick)"
-  - n: "22"
-    t: "Fixing Committed Version History Part 4 (rebase)"
-    full: "Day 22: Fixing Committed Version History Part 4 (rebase)"
-  - n: "23"
-    t: "Fixing Committed Version History Part 5 (rebase 2)"
-    full: "Day 23: Fixing Committed Version History Part 5 (rebase 2)"
-  - n: "24"
-    t: "Using GitHub Remote Repository - Getting Started"
-    full: "Day 24: Using GitHub Remote Repository - Getting Started"
-  - n: "25"
-    t: "Using GitHub Remote Repository - Concepts"
-    full: "Day 25: Using GitHub Remote Repository - Concepts"
-  - n: "26"
-    t: "Multiple People Working in the Same Remote Repository"
-    full: "Day 26: Multiple People Working in the Same Remote Repository"
-  - n: "27"
-    t: "Version Control Through Branches in the Same Remote Repository"
-    full: "Day 27: Version Control Through Branches in the Same Remote Repository"
-  - n: "28"
-    t: "Understanding GitHub Forks and Pull Request Workflow"
-    full: "Day 28: Understanding GitHub Forks and Pull Request Workflow"
-  - n: "29"
-    t: "How to Import Subversion Projects into Git Repository"
-    full: "Day 29: How to Import Subversion Projects into Git Repository"
-  - n: "30"
-    t: "Sharing Some Useful Git Operation Tips from Work"
-    full: "Day 30: Sharing Some Useful Git Operation Tips from Work"
+- n: '01'
+  t: Understanding Git Version Control
+  full: 'Day 01: Understanding Git Version Control'
+- n: '02'
+  t: Three Essential Git Tools for Windows Platform
+  full: 'Day 02: Three Essential Git Tools for Windows Platform'
+- n: '03'
+  t: Creating a Repository
+  full: 'Day 03: Creating a Repository'
+- n: '04'
+  t: Common Git Version Control Commands
+  full: 'Day 04: Common Git Version Control Commands'
+- n: '05'
+  t: Understanding the Relationship Between Repository, Working Directory, Objects, and Index
+  full: 'Day 05: Understanding the Relationship Between Repository, Working Directory, Objects, and Index'
+- n: '06'
+  t: Parsing Git Data Structure - Object Structure
+  full: 'Day 06: Parsing Git Data Structure - Object Structure'
+- n: '07'
+  t: Parsing Git Data Structure - Index Structure
+  full: 'Day 07: Parsing Git Data Structure - Index Structure'
+- n: 08
+  t: Basic Concepts and Usage of Branches
+  full: 'Day 08: Basic Concepts and Usage of Branches'
+- n: 09
+  t: Comparing File and Version Differences
+  full: 'Day 09: Comparing File and Version Differences'
+- n: '10'
+  t: Understanding Git Object Absolute Names
+  full: 'Day 10: Understanding Git Object Absolute Names'
+- n: '11'
+  t: Understanding Git Object References and Symbolic References
+  full: 'Day 11: Understanding Git Object References and Symbolic References'
+- n: '12'
+  t: Understanding Git Object Relative Names
+  full: 'Day 12: Understanding Git Object Relative Names'
+- n: '13'
+  t: Stashing Changes in Working Directory and Index
+  full: 'Day 13: Stashing Changes in Working Directory and Index'
+- n: '14'
+  t: Git for Windows Configuration Options
+  full: 'Day 14: Git for Windows Configuration Options'
+- n: '15'
+  t: Tags - Marking Important Events in Version Control
+  full: 'Day 15: Tags - Marking Important Events in Version Control'
+- n: '16'
+  t: Using git reflog to Track Change History
+  full: 'Day 16: Using git reflog to Track Change History'
+- n: '17'
+  t: Basic Concepts and Usage of Merging
+  full: 'Day 17: Basic Concepts and Usage of Merging'
+- n: '18'
+  t: Fixing Committed Version History Part 1 (reset & amend)
+  full: 'Day 18: Fixing Committed Version History Part 1 (reset & amend)'
+- n: '19'
+  t: Setting .gitignore Ignore List
+  full: 'Day 19: Setting .gitignore Ignore List'
+- n: '20'
+  t: Fixing Committed Version History Part 2 (revert)
+  full: 'Day 20: Fixing Committed Version History Part 2 (revert)'
+- n: '21'
+  t: Fixing Committed Version History Part 3 (cherry-pick)
+  full: 'Day 21: Fixing Committed Version History Part 3 (cherry-pick)'
+- n: '22'
+  t: Fixing Committed Version History Part 4 (rebase)
+  full: 'Day 22: Fixing Committed Version History Part 4 (rebase)'
+- n: '23'
+  t: Fixing Committed Version History Part 5 (rebase 2)
+  full: 'Day 23: Fixing Committed Version History Part 5 (rebase 2)'
+- n: '24'
+  t: Using GitHub Remote Repository - Getting Started
+  full: 'Day 24: Using GitHub Remote Repository - Getting Started'
+- n: '25'
+  t: Using GitHub Remote Repository - Concepts
+  full: 'Day 25: Using GitHub Remote Repository - Concepts'
+- n: '26'
+  t: Multiple People Working in the Same Remote Repository
+  full: 'Day 26: Multiple People Working in the Same Remote Repository'
+- n: '27'
+  t: Version Control Through Branches in the Same Remote Repository
+  full: 'Day 27: Version Control Through Branches in the Same Remote Repository'
+- n: '28'
+  t: Understanding GitHub Forks and Pull Request Workflow
+  full: 'Day 28: Understanding GitHub Forks and Pull Request Workflow'
+- n: '29'
+  t: How to Import Subversion Projects into Git Repository
+  full: 'Day 29: How to Import Subversion Projects into Git Repository'
+- n: '30'
+  t: Sharing Some Useful Git Operation Tips from Work
+  full: 'Day 30: Sharing Some Useful Git Operation Tips from Work'
 fa:
-  - n: "01"
-    t: "درک کنترل نسخه Git"
-    full: "روز ۰۱: درک کنترل نسخه Git"
-  - n: "02"
-    t: "سه ابزار ضروری Git برای پلتفرم ویندوز"
-    full: "روز ۰۲: سه ابزار ضروری Git برای پلتفرم ویندوز"
-  - n: "03"
-    t: "ایجاد یک مخزن (Repository)"
-    full: "روز ۰۳: ایجاد یک مخزن (Repository)"
-  - n: "04"
-    t: "دستورات رایج کنترل نسخه Git"
-    full: "روز ۰۴: دستورات رایج کنترل نسخه Git"
-  - n: "05"
-    t: "درک رابطه بین مخزن (Repository)، دایرکتوری کاری (Working Directory)، اشیاء (Objects) و ایندکس (Index)"
-    full: "روز ۰۵: درک رابطه بین مخزن (Repository)، دایرکتوری کاری (Working Directory)، اشیاء (Objects) و ایندکس (Index)"
-  - n: "06"
-    t: "تجزیه ساختار داده Git - ساختار اشیاء (Object Structure)"
-    full: "روز ۰۶: تجزیه ساختار داده Git - ساختار اشیاء (Object Structure)"
-  - n: "07"
-    t: "تجزیه ساختار داده Git - ساختار ایندکس (Index Structure)"
-    full: "روز ۰۷: تجزیه ساختار داده Git - ساختار ایندکس (Index Structure)"
-  - n: "08"
-    t: "مفاهیم پایه و استفاده از شاخه‌ها (Branches)"
-    full: "روز ۰۸: مفاهیم پایه و استفاده از شاخه‌ها (Branches)"
-  - n: "09"
-    t: "مقایسه تفاوت‌های فایل و نسخه"
-    full: "روز ۰۹: مقایسه تفاوت‌های فایل و نسخه"
-  - n: "10"
-    t: "درک نام‌های مطلق اشیاء Git (Git Object Absolute Names)"
-    full: "روز ۱۰: درک نام‌های مطلق اشیاء Git (Git Object Absolute Names)"
-  - n: "11"
-    t: "درک مراجع شیء Git (Object References) و مراجع نمادین (Symbolic References)"
-    full: "روز ۱۱: درک مراجع شیء Git (Object References) و مراجع نمادین (Symbolic References)"
-  - n: "12"
-    t: "درک نام‌های نسبی اشیاء Git (Git Object Relative Names)"
-    full: "روز ۱۲: درک نام‌های نسبی اشیاء Git (Git Object Relative Names)"
-  - n: "13"
-    t: "ذخیره موقت تغییرات در دایرکتوری کاری و ایندکس (Stashing)"
-    full: "روز ۱۳: ذخیره موقت تغییرات در دایرکتوری کاری و ایندکس (Stashing)"
-  - n: "14"
-    t: "گزینه‌های پیکربندی Git برای ویندوز (Configuration Options)"
-    full: "روز ۱۴: گزینه‌های پیکربندی Git برای ویندوز (Configuration Options)"
-  - n: "15"
-    t: "تگ‌ها (Tags) - نشانه‌گذاری رویدادهای مهم در کنترل نسخه"
-    full: "روز ۱۵: تگ‌ها (Tags) - نشانه‌گذاری رویدادهای مهم در کنترل نسخه"
-  - n: "16"
-    t: "استفاده از git reflog برای ردیابی تاریخچه تغییرات"
-    full: "روز ۱۶: استفاده از git reflog برای ردیابی تاریخچه تغییرات"
-  - n: "17"
-    t: "مفاهیم پایه و استفاده از ادغام (Merging)"
-    full: "روز ۱۷: مفاهیم پایه و استفاده از ادغام (Merging)"
-  - n: "18"
-    t: "اصلاح تاریخچه نسخه‌های Commit شده - بخش اول (reset و amend)"
-    full: "روز ۱۸: اصلاح تاریخچه نسخه‌های Commit شده - بخش اول (reset و amend)"
-  - n: "19"
-    t: "تنظیم لیست نادیده گرفتن .gitignore"
-    full: "روز ۱۹: تنظیم لیست نادیده گرفتن .gitignore"
-  - n: "20"
-    t: "اصلاح تاریخچه نسخه‌های Commit شده - بخش دوم (revert)"
-    full: "روز ۲۰: اصلاح تاریخچه نسخه‌های Commit شده - بخش دوم (revert)"
-  - n: "21"
-    t: "اصلاح تاریخچه نسخه‌های Commit شده - بخش سوم (cherry-pick)"
-    full: "روز ۲۱: اصلاح تاریخچه نسخه‌های Commit شده - بخش سوم (cherry-pick)"
-  - n: "22"
-    t: "اصلاح تاریخچه نسخه‌های Commit شده - بخش چهارم (rebase)"
-    full: "روز ۲۲: اصلاح تاریخچه نسخه‌های Commit شده - بخش چهارم (rebase)"
-  - n: "23"
-    t: "اصلاح تاریخچه نسخه‌های Commit شده - بخش پنجم (rebase 2)"
-    full: "روز ۲۳: اصلاح تاریخچه نسخه‌های Commit شده - بخش پنجم (rebase 2)"
-  - n: "24"
-    t: "استفاده از مخزن راه دور (Remote Repository) گیت‌هاب - شروع کار"
-    full: "روز ۲۴: استفاده از مخزن راه دور (Remote Repository) گیت‌هاب - شروع کار"
-  - n: "25"
-    t: "استفاده از مخزن راه دور (Remote Repository) گیت‌هاب - مفاهیم"
-    full: "روز ۲۵: استفاده از مخزن راه دور (Remote Repository) گیت‌هاب - مفاهیم"
-  - n: "26"
-    t: "کار همزمان چندین نفر در یک مخزن راه دور (Remote Repository)"
-    full: "روز ۲۶: کار همزمان چندین نفر در یک مخزن راه دور (Remote Repository)"
-  - n: "27"
-    t: "کنترل نسخه از طریق شاخه‌ها (Branches) در همان مخزن راه دور"
-    full: "روز ۲۷: کنترل نسخه از طریق شاخه‌ها (Branches) در همان مخزن راه دور"
-  - n: "28"
-    t: "درک جریان کاری Forkها و Pull Requestهای گیت‌هاب"
-    full: "روز ۲۸: درک جریان کاری Forkها و Pull Requestهای گیت‌هاب"
-  - n: "29"
-    t: "نحوه وارد کردن پروژه‌های Subversion به مخزن Git"
-    full: "روز ۲۹: نحوه وارد کردن پروژه‌های Subversion به مخزن Git"
-  - n: "30"
-    t: "اشتراک‌گذاری برخی نکات مفید عملیاتی Git از محیط کار"
-    full: "روز ۳۰: اشتراک‌گذاری برخی نکات مفید عملیاتی Git از محیط کار"
+- n: '01'
+  t: درک کنترل نسخه Git
+  full: 'روز ۰۱: درک کنترل نسخه Git'
+- n: '02'
+  t: سه ابزار ضروری Git برای پلتفرم ویندوز
+  full: 'روز ۰۲: سه ابزار ضروری Git برای پلتفرم ویندوز'
+- n: '03'
+  t: ایجاد یک مخزن (Repository)
+  full: 'روز ۰۳: ایجاد یک مخزن (Repository)'
+- n: '04'
+  t: دستورات رایج کنترل نسخه Git
+  full: 'روز ۰۴: دستورات رایج کنترل نسخه Git'
+- n: '05'
+  t: درک رابطه بین مخزن (Repository)، دایرکتوری کاری (Working Directory)، اشیاء (Objects) و ایندکس (Index)
+  full: 'روز ۰۵: درک رابطه بین مخزن (Repository)، دایرکتوری کاری (Working Directory)، اشیاء (Objects) و ایندکس (Index)'
+- n: '06'
+  t: تجزیه ساختار داده Git - ساختار اشیاء (Object Structure)
+  full: 'روز ۰۶: تجزیه ساختار داده Git - ساختار اشیاء (Object Structure)'
+- n: '07'
+  t: تجزیه ساختار داده Git - ساختار ایندکس (Index Structure)
+  full: 'روز ۰۷: تجزیه ساختار داده Git - ساختار ایندکس (Index Structure)'
+- n: 08
+  t: مفاهیم پایه و استفاده از شاخه‌ها (Branches)
+  full: 'روز ۰۸: مفاهیم پایه و استفاده از شاخه‌ها (Branches)'
+- n: 09
+  t: مقایسه تفاوت‌های فایل و نسخه
+  full: 'روز ۰۹: مقایسه تفاوت‌های فایل و نسخه'
+- n: '10'
+  t: درک نام‌های مطلق اشیاء Git (Git Object Absolute Names)
+  full: 'روز ۱۰: درک نام‌های مطلق اشیاء Git (Git Object Absolute Names)'
+- n: '11'
+  t: درک مراجع شیء Git (Object References) و مراجع نمادین (Symbolic References)
+  full: 'روز ۱۱: درک مراجع شیء Git (Object References) و مراجع نمادین (Symbolic References)'
+- n: '12'
+  t: درک نام‌های نسبی اشیاء Git (Git Object Relative Names)
+  full: 'روز ۱۲: درک نام‌های نسبی اشیاء Git (Git Object Relative Names)'
+- n: '13'
+  t: ذخیره موقت تغییرات در دایرکتوری کاری و ایندکس (Stashing)
+  full: 'روز ۱۳: ذخیره موقت تغییرات در دایرکتوری کاری و ایندکس (Stashing)'
+- n: '14'
+  t: گزینه‌های پیکربندی Git برای ویندوز (Configuration Options)
+  full: 'روز ۱۴: گزینه‌های پیکربندی Git برای ویندوز (Configuration Options)'
+- n: '15'
+  t: تگ‌ها (Tags) - نشانه‌گذاری رویدادهای مهم در کنترل نسخه
+  full: 'روز ۱۵: تگ‌ها (Tags) - نشانه‌گذاری رویدادهای مهم در کنترل نسخه'
+- n: '16'
+  t: استفاده از git reflog برای ردیابی تاریخچه تغییرات
+  full: 'روز ۱۶: استفاده از git reflog برای ردیابی تاریخچه تغییرات'
+- n: '17'
+  t: مفاهیم پایه و استفاده از ادغام (Merging)
+  full: 'روز ۱۷: مفاهیم پایه و استفاده از ادغام (Merging)'
+- n: '18'
+  t: اصلاح تاریخچه نسخه‌های Commit شده - بخش اول (reset و amend)
+  full: 'روز ۱۸: اصلاح تاریخچه نسخه‌های Commit شده - بخش اول (reset و amend)'
+- n: '19'
+  t: تنظیم لیست نادیده گرفتن .gitignore
+  full: 'روز ۱۹: تنظیم لیست نادیده گرفتن .gitignore'
+- n: '20'
+  t: اصلاح تاریخچه نسخه‌های Commit شده - بخش دوم (revert)
+  full: 'روز ۲۰: اصلاح تاریخچه نسخه‌های Commit شده - بخش دوم (revert)'
+- n: '21'
+  t: اصلاح تاریخچه نسخه‌های Commit شده - بخش سوم (cherry-pick)
+  full: 'روز ۲۱: اصلاح تاریخچه نسخه‌های Commit شده - بخش سوم (cherry-pick)'
+- n: '22'
+  t: اصلاح تاریخچه نسخه‌های Commit شده - بخش چهارم (rebase)
+  full: 'روز ۲۲: اصلاح تاریخچه نسخه‌های Commit شده - بخش چهارم (rebase)'
+- n: '23'
+  t: اصلاح تاریخچه نسخه‌های Commit شده - بخش پنجم (rebase 2)
+  full: 'روز ۲۳: اصلاح تاریخچه نسخه‌های Commit شده - بخش پنجم (rebase 2)'
+- n: '24'
+  t: استفاده از مخزن راه دور (Remote Repository) گیت‌هاب - شروع کار
+  full: 'روز ۲۴: استفاده از مخزن راه دور (Remote Repository) گیت‌هاب - شروع کار'
+- n: '25'
+  t: استفاده از مخزن راه دور (Remote Repository) گیت‌هاب - مفاهیم
+  full: 'روز ۲۵: استفاده از مخزن راه دور (Remote Repository) گیت‌هاب - مفاهیم'
+- n: '26'
+  t: کار همزمان چندین نفر در یک مخزن راه دور (Remote Repository)
+  full: 'روز ۲۶: کار همزمان چندین نفر در یک مخزن راه دور (Remote Repository)'
+- n: '27'
+  t: کنترل نسخه از طریق شاخه‌ها (Branches) در همان مخزن راه دور
+  full: 'روز ۲۷: کنترل نسخه از طریق شاخه‌ها (Branches) در همان مخزن راه دور'
+- n: '28'
+  t: درک جریان کاری Forkها و Pull Requestهای گیت‌هاب
+  full: 'روز ۲۸: درک جریان کاری Forkها و Pull Requestهای گیت‌هاب'
+- n: '29'
+  t: نحوه وارد کردن پروژه‌های Subversion به مخزن Git
+  full: 'روز ۲۹: نحوه وارد کردن پروژه‌های Subversion به مخزن Git'
+- n: '30'
+  t: اشتراک‌گذاری برخی نکات مفید عملیاتی Git از محیط کار
+  full: 'روز ۳۰: اشتراک‌گذاری برخی نکات مفید عملیاتی Git از محیط کار'
+ja:
+- n: '01'
+  t: Git バージョン管理を理解する
+  full: 'Day 01: Git バージョン管理を理解する'
+- n: '02'
+  t: Windows プラットフォームで必須の Git ツール 3 選
+  full: 'Day 02: Windows プラットフォームで必須の Git ツール 3 選'
+- n: '03'
+  t: リポジトリを作成する
+  full: 'Day 03: リポジトリを作成する'
+- n: '04'
+  t: よく使う Git バージョン管理コマンド
+  full: 'Day 04: よく使う Git バージョン管理コマンド'
+- n: '05'
+  t: リポジトリ、ワーキングディレクトリ、オブジェクト、インデックスの関係を理解する
+  full: 'Day 05: リポジトリ、ワーキングディレクトリ、オブジェクト、インデックスの関係を理解する'
+- n: '06'
+  t: Git のデータ構造を解析する - オブジェクト構造
+  full: 'Day 06: Git のデータ構造を解析する - オブジェクト構造'
+- n: '07'
+  t: Git のデータ構造を解析する - インデックス構造
+  full: 'Day 07: Git のデータ構造を解析する - インデックス構造'
+- n: 08
+  t: ブランチの基本概念と使い方
+  full: 'Day 08: ブランチの基本概念と使い方'
+- n: 09
+  t: ファイルとバージョンの差分を比較する
+  full: 'Day 09: ファイルとバージョンの差分を比較する'
+- n: '10'
+  t: Git オブジェクトの絶対名を理解する
+  full: 'Day 10: Git オブジェクトの絶対名を理解する'
+- n: '11'
+  t: Git オブジェクトの参照とシンボリック参照を理解する
+  full: 'Day 11: Git オブジェクトの参照とシンボリック参照を理解する'
+- n: '12'
+  t: Git オブジェクトの相対名を理解する
+  full: 'Day 12: Git オブジェクトの相対名を理解する'
+- n: '13'
+  t: ワーキングディレクトリとインデックスの変更を退避する（stash）
+  full: 'Day 13: ワーキングディレクトリとインデックスの変更を退避する（stash）'
+- n: '14'
+  t: Git for Windows の設定オプション
+  full: 'Day 14: Git for Windows の設定オプション'
+- n: '15'
+  t: タグ - バージョン管理における重要なイベントの記録
+  full: 'Day 15: タグ - バージョン管理における重要なイベントの記録'
+- n: '16'
+  t: git reflog で変更履歴を追跡する
+  full: 'Day 16: git reflog で変更履歴を追跡する'
+- n: '17'
+  t: マージの基本概念と使い方
+  full: 'Day 17: マージの基本概念と使い方'
+- n: '18'
+  t: コミット済み履歴の修正 Part 1（reset と amend）
+  full: 'Day 18: コミット済み履歴の修正 Part 1（reset と amend）'
+- n: '19'
+  t: .gitignore の除外リストを設定する
+  full: 'Day 19: .gitignore の除外リストを設定する'
+- n: '20'
+  t: コミット済み履歴の修正 Part 2（revert）
+  full: 'Day 20: コミット済み履歴の修正 Part 2（revert）'
+- n: '21'
+  t: コミット済み履歴の修正 Part 3（cherry-pick）
+  full: 'Day 21: コミット済み履歴の修正 Part 3（cherry-pick）'
+- n: '22'
+  t: コミット済み履歴の修正 Part 4（rebase）
+  full: 'Day 22: コミット済み履歴の修正 Part 4（rebase）'
+- n: '23'
+  t: コミット済み履歴の修正 Part 5（rebase 2）
+  full: 'Day 23: コミット済み履歴の修正 Part 5（rebase 2）'
+- n: '24'
+  t: GitHub リモートリポジトリを使う - 入門編
+  full: 'Day 24: GitHub リモートリポジトリを使う - 入門編'
+- n: '25'
+  t: GitHub リモートリポジトリを使う - 概念編
+  full: 'Day 25: GitHub リモートリポジトリを使う - 概念編'
+- n: '26'
+  t: 同じリモートリポジトリで複数人が作業する
+  full: 'Day 26: 同じリモートリポジトリで複数人が作業する'
+- n: '27'
+  t: 同じリモートリポジトリでブランチを使ってバージョン管理する
+  full: 'Day 27: 同じリモートリポジトリでブランチを使ってバージョン管理する'
+- n: '28'
+  t: GitHub のフォークとプルリクエストのワークフローを理解する
+  full: 'Day 28: GitHub のフォークとプルリクエストのワークフローを理解する'
+- n: '29'
+  t: Subversion プロジェクトを Git リポジトリにインポートする方法
+  full: 'Day 29: Subversion プロジェクトを Git リポジトリにインポートする方法'
+- n: '30'
+  t: 実務で役立つ Git 操作の Tips 共有
+  full: 'Day 30: 実務で役立つ Git 操作の Tips 共有'
+ko:
+- n: '01'
+  t: Git 버전 관리 이해하기
+  full: 'Day 01: Git 버전 관리 이해하기'
+- n: '02'
+  t: Windows 플랫폼 필수 Git 도구 3가지
+  full: 'Day 02: Windows 플랫폼 필수 Git 도구 3가지'
+- n: '03'
+  t: 리포지토리 만들기
+  full: 'Day 03: 리포지토리 만들기'
+- n: '04'
+  t: 자주 사용하는 Git 버전 관리 명령어
+  full: 'Day 04: 자주 사용하는 Git 버전 관리 명령어'
+- n: '05'
+  t: 리포지토리, 작업 디렉터리, 개체, 인덱스의 관계 이해하기
+  full: 'Day 05: 리포지토리, 작업 디렉터리, 개체, 인덱스의 관계 이해하기'
+- n: '06'
+  t: Git 데이터 구조 파헤치기 - 개체 구조
+  full: 'Day 06: Git 데이터 구조 파헤치기 - 개체 구조'
+- n: '07'
+  t: Git 데이터 구조 파헤치기 - 인덱스 구조
+  full: 'Day 07: Git 데이터 구조 파헤치기 - 인덱스 구조'
+- n: 08
+  t: 브랜치의 기본 개념과 사용법
+  full: 'Day 08: 브랜치의 기본 개념과 사용법'
+- n: 09
+  t: 파일 및 버전 차이 비교하기
+  full: 'Day 09: 파일 및 버전 차이 비교하기'
+- n: '10'
+  t: Git 개체 절대 이름 이해하기
+  full: 'Day 10: Git 개체 절대 이름 이해하기'
+- n: '11'
+  t: Git 개체 참조와 심볼릭 참조 이해하기
+  full: 'Day 11: Git 개체 참조와 심볼릭 참조 이해하기'
+- n: '12'
+  t: Git 개체 상대 이름 이해하기
+  full: 'Day 12: Git 개체 상대 이름 이해하기'
+- n: '13'
+  t: 작업 디렉터리와 인덱스의 변경 사항 스태시하기
+  full: 'Day 13: 작업 디렉터리와 인덱스의 변경 사항 스태시하기'
+- n: '14'
+  t: Git for Windows 구성 옵션
+  full: 'Day 14: Git for Windows 구성 옵션'
+- n: '15'
+  t: 태그 - 버전 관리의 중요한 이벤트 표시하기
+  full: 'Day 15: 태그 - 버전 관리의 중요한 이벤트 표시하기'
+- n: '16'
+  t: git reflog로 변경 이력 추적하기
+  full: 'Day 16: git reflog로 변경 이력 추적하기'
+- n: '17'
+  t: 병합의 기본 개념과 사용법
+  full: 'Day 17: 병합의 기본 개념과 사용법'
+- n: '18'
+  t: 커밋된 버전 이력 수정하기 Part 1 (reset & amend)
+  full: 'Day 18: 커밋된 버전 이력 수정하기 Part 1 (reset & amend)'
+- n: '19'
+  t: .gitignore 무시 목록 설정하기
+  full: 'Day 19: .gitignore 무시 목록 설정하기'
+- n: '20'
+  t: 커밋된 버전 이력 수정하기 Part 2 (revert)
+  full: 'Day 20: 커밋된 버전 이력 수정하기 Part 2 (revert)'
+- n: '21'
+  t: 커밋된 버전 이력 수정하기 Part 3 (cherry-pick)
+  full: 'Day 21: 커밋된 버전 이력 수정하기 Part 3 (cherry-pick)'
+- n: '22'
+  t: 커밋된 버전 이력 수정하기 Part 4 (rebase)
+  full: 'Day 22: 커밋된 버전 이력 수정하기 Part 4 (rebase)'
+- n: '23'
+  t: 커밋된 버전 이력 수정하기 Part 5 (rebase 2)
+  full: 'Day 23: 커밋된 버전 이력 수정하기 Part 5 (rebase 2)'
+- n: '24'
+  t: GitHub 원격 리포지토리 사용하기 - 시작하기
+  full: 'Day 24: GitHub 원격 리포지토리 사용하기 - 시작하기'
+- n: '25'
+  t: GitHub 원격 리포지토리 사용하기 - 개념
+  full: 'Day 25: GitHub 원격 리포지토리 사용하기 - 개념'
+- n: '26'
+  t: 같은 원격 리포지토리에서 여러 사람이 작업하기
+  full: 'Day 26: 같은 원격 리포지토리에서 여러 사람이 작업하기'
+- n: '27'
+  t: 같은 원격 리포지토리에서 브랜치로 버전 관리하기
+  full: 'Day 27: 같은 원격 리포지토리에서 브랜치로 버전 관리하기'
+- n: '28'
+  t: GitHub 포크와 풀 리퀘스트 워크플로 이해하기
+  full: 'Day 28: GitHub 포크와 풀 리퀘스트 워크플로 이해하기'
+- n: '29'
+  t: Subversion 프로젝트를 Git 리포지토리로 가져오는 방법
+  full: 'Day 29: Subversion 프로젝트를 Git 리포지토리로 가져오는 방법'
+- n: '30'
+  t: 실무에서 유용한 Git 작업 팁 공유
+  full: 'Day 30: 실무에서 유용한 Git 작업 팁 공유'
+vi:
+- n: '01'
+  t: Hiểu về quản lý phiên bản với Git
+  full: 'Ngày 01: Hiểu về quản lý phiên bản với Git'
+- n: '02'
+  t: Ba công cụ Git thiết yếu cho nền tảng Windows
+  full: 'Ngày 02: Ba công cụ Git thiết yếu cho nền tảng Windows'
+- n: '03'
+  t: Tạo kho lưu trữ (Repository)
+  full: 'Ngày 03: Tạo kho lưu trữ (Repository)'
+- n: '04'
+  t: Các lệnh quản lý phiên bản Git thường dùng
+  full: 'Ngày 04: Các lệnh quản lý phiên bản Git thường dùng'
+- n: '05'
+  t: Hiểu mối quan hệ giữa Repository, Working Directory, Objects và Index
+  full: 'Ngày 05: Hiểu mối quan hệ giữa Repository, Working Directory, Objects và Index'
+- n: '06'
+  t: Phân tích cấu trúc dữ liệu Git - Cấu trúc Object
+  full: 'Ngày 06: Phân tích cấu trúc dữ liệu Git - Cấu trúc Object'
+- n: '07'
+  t: Phân tích cấu trúc dữ liệu Git - Cấu trúc Index
+  full: 'Ngày 07: Phân tích cấu trúc dữ liệu Git - Cấu trúc Index'
+- n: 08
+  t: Khái niệm cơ bản và cách sử dụng Branch
+  full: 'Ngày 08: Khái niệm cơ bản và cách sử dụng Branch'
+- n: 09
+  t: So sánh khác biệt giữa tệp và phiên bản
+  full: 'Ngày 09: So sánh khác biệt giữa tệp và phiên bản'
+- n: '10'
+  t: Hiểu tên tuyệt đối của Git Object
+  full: 'Ngày 10: Hiểu tên tuyệt đối của Git Object'
+- n: '11'
+  t: Hiểu tham chiếu Git Object và tham chiếu tượng trưng
+  full: 'Ngày 11: Hiểu tham chiếu Git Object và tham chiếu tượng trưng'
+- n: '12'
+  t: Hiểu tên tương đối của Git Object
+  full: 'Ngày 12: Hiểu tên tương đối của Git Object'
+- n: '13'
+  t: Tạm cất thay đổi trong Working Directory và Index (Stash)
+  full: 'Ngày 13: Tạm cất thay đổi trong Working Directory và Index (Stash)'
+- n: '14'
+  t: Các tùy chọn cấu hình Git for Windows
+  full: 'Ngày 14: Các tùy chọn cấu hình Git for Windows'
+- n: '15'
+  t: Tag - Đánh dấu các sự kiện quan trọng trong quản lý phiên bản
+  full: 'Ngày 15: Tag - Đánh dấu các sự kiện quan trọng trong quản lý phiên bản'
+- n: '16'
+  t: Dùng git reflog để theo dõi lịch sử thay đổi
+  full: 'Ngày 16: Dùng git reflog để theo dõi lịch sử thay đổi'
+- n: '17'
+  t: Khái niệm cơ bản và cách sử dụng Merge
+  full: 'Ngày 17: Khái niệm cơ bản và cách sử dụng Merge'
+- n: '18'
+  t: Sửa lịch sử phiên bản đã commit Phần 1 (reset & amend)
+  full: 'Ngày 18: Sửa lịch sử phiên bản đã commit Phần 1 (reset & amend)'
+- n: '19'
+  t: Thiết lập danh sách bỏ qua .gitignore
+  full: 'Ngày 19: Thiết lập danh sách bỏ qua .gitignore'
+- n: '20'
+  t: Sửa lịch sử phiên bản đã commit Phần 2 (revert)
+  full: 'Ngày 20: Sửa lịch sử phiên bản đã commit Phần 2 (revert)'
+- n: '21'
+  t: Sửa lịch sử phiên bản đã commit Phần 3 (cherry-pick)
+  full: 'Ngày 21: Sửa lịch sử phiên bản đã commit Phần 3 (cherry-pick)'
+- n: '22'
+  t: Sửa lịch sử phiên bản đã commit Phần 4 (rebase)
+  full: 'Ngày 22: Sửa lịch sử phiên bản đã commit Phần 4 (rebase)'
+- n: '23'
+  t: Sửa lịch sử phiên bản đã commit Phần 5 (rebase 2)
+  full: 'Ngày 23: Sửa lịch sử phiên bản đã commit Phần 5 (rebase 2)'
+- n: '24'
+  t: Sử dụng GitHub Remote Repository - Bắt đầu
+  full: 'Ngày 24: Sử dụng GitHub Remote Repository - Bắt đầu'
+- n: '25'
+  t: Sử dụng GitHub Remote Repository - Khái niệm
+  full: 'Ngày 25: Sử dụng GitHub Remote Repository - Khái niệm'
+- n: '26'
+  t: Nhiều người cùng làm việc trên một Remote Repository
+  full: 'Ngày 26: Nhiều người cùng làm việc trên một Remote Repository'
+- n: '27'
+  t: Quản lý phiên bản bằng Branch trên cùng một Remote Repository
+  full: 'Ngày 27: Quản lý phiên bản bằng Branch trên cùng một Remote Repository'
+- n: '28'
+  t: Hiểu quy trình Fork và Pull Request trên GitHub
+  full: 'Ngày 28: Hiểu quy trình Fork và Pull Request trên GitHub'
+- n: '29'
+  t: Cách nhập dự án Subversion vào Git Repository
+  full: 'Ngày 29: Cách nhập dự án Subversion vào Git Repository'
+- n: '30'
+  t: Chia sẻ một số mẹo thao tác Git hữu ích trong công việc
+  full: 'Ngày 30: Chia sẻ một số mẹo thao tác Git hữu ích trong công việc'
+th:
+- n: '01'
+  t: ทำความเข้าใจการควบคุมเวอร์ชันด้วย Git
+  full: 'วันที่ 01: ทำความเข้าใจการควบคุมเวอร์ชันด้วย Git'
+- n: '02'
+  t: เครื่องมือ Git จำเป็น 3 อย่างสำหรับแพลตฟอร์ม Windows
+  full: 'วันที่ 02: เครื่องมือ Git จำเป็น 3 อย่างสำหรับแพลตฟอร์ม Windows'
+- n: '03'
+  t: การสร้าง Repository
+  full: 'วันที่ 03: การสร้าง Repository'
+- n: '04'
+  t: คำสั่ง Git สำหรับควบคุมเวอร์ชันที่ใช้บ่อย
+  full: 'วันที่ 04: คำสั่ง Git สำหรับควบคุมเวอร์ชันที่ใช้บ่อย'
+- n: '05'
+  t: ทำความเข้าใจความสัมพันธ์ระหว่าง Repository, Working Directory, Objects และ Index
+  full: 'วันที่ 05: ทำความเข้าใจความสัมพันธ์ระหว่าง Repository, Working Directory, Objects และ Index'
+- n: '06'
+  t: วิเคราะห์โครงสร้างข้อมูลของ Git - โครงสร้าง Object
+  full: 'วันที่ 06: วิเคราะห์โครงสร้างข้อมูลของ Git - โครงสร้าง Object'
+- n: '07'
+  t: วิเคราะห์โครงสร้างข้อมูลของ Git - โครงสร้าง Index
+  full: 'วันที่ 07: วิเคราะห์โครงสร้างข้อมูลของ Git - โครงสร้าง Index'
+- n: 08
+  t: แนวคิดพื้นฐานและการใช้งาน Branch
+  full: 'วันที่ 08: แนวคิดพื้นฐานและการใช้งาน Branch'
+- n: 09
+  t: การเปรียบเทียบความแตกต่างของไฟล์และเวอร์ชัน
+  full: 'วันที่ 09: การเปรียบเทียบความแตกต่างของไฟล์และเวอร์ชัน'
+- n: '10'
+  t: ทำความเข้าใจชื่อสัมบูรณ์ของ Git Object
+  full: 'วันที่ 10: ทำความเข้าใจชื่อสัมบูรณ์ของ Git Object'
+- n: '11'
+  t: ทำความเข้าใจการอ้างอิง Git Object และการอ้างอิงเชิงสัญลักษณ์
+  full: 'วันที่ 11: ทำความเข้าใจการอ้างอิง Git Object และการอ้างอิงเชิงสัญลักษณ์'
+- n: '12'
+  t: ทำความเข้าใจชื่อสัมพัทธ์ของ Git Object
+  full: 'วันที่ 12: ทำความเข้าใจชื่อสัมพัทธ์ของ Git Object'
+- n: '13'
+  t: การเก็บพักการเปลี่ยนแปลงใน Working Directory และ Index (Stash)
+  full: 'วันที่ 13: การเก็บพักการเปลี่ยนแปลงใน Working Directory และ Index (Stash)'
+- n: '14'
+  t: ตัวเลือกการกำหนดค่า Git for Windows
+  full: 'วันที่ 14: ตัวเลือกการกำหนดค่า Git for Windows'
+- n: '15'
+  t: Tag - การทำเครื่องหมายเหตุการณ์สำคัญในการควบคุมเวอร์ชัน
+  full: 'วันที่ 15: Tag - การทำเครื่องหมายเหตุการณ์สำคัญในการควบคุมเวอร์ชัน'
+- n: '16'
+  t: ใช้ git reflog ติดตามประวัติการเปลี่ยนแปลง
+  full: 'วันที่ 16: ใช้ git reflog ติดตามประวัติการเปลี่ยนแปลง'
+- n: '17'
+  t: แนวคิดพื้นฐานและการใช้งาน Merge
+  full: 'วันที่ 17: แนวคิดพื้นฐานและการใช้งาน Merge'
+- n: '18'
+  t: แก้ไขประวัติเวอร์ชันที่ Commit แล้ว ตอนที่ 1 (reset & amend)
+  full: 'วันที่ 18: แก้ไขประวัติเวอร์ชันที่ Commit แล้ว ตอนที่ 1 (reset & amend)'
+- n: '19'
+  t: การตั้งค่ารายการละเว้น .gitignore
+  full: 'วันที่ 19: การตั้งค่ารายการละเว้น .gitignore'
+- n: '20'
+  t: แก้ไขประวัติเวอร์ชันที่ Commit แล้ว ตอนที่ 2 (revert)
+  full: 'วันที่ 20: แก้ไขประวัติเวอร์ชันที่ Commit แล้ว ตอนที่ 2 (revert)'
+- n: '21'
+  t: แก้ไขประวัติเวอร์ชันที่ Commit แล้ว ตอนที่ 3 (cherry-pick)
+  full: 'วันที่ 21: แก้ไขประวัติเวอร์ชันที่ Commit แล้ว ตอนที่ 3 (cherry-pick)'
+- n: '22'
+  t: แก้ไขประวัติเวอร์ชันที่ Commit แล้ว ตอนที่ 4 (rebase)
+  full: 'วันที่ 22: แก้ไขประวัติเวอร์ชันที่ Commit แล้ว ตอนที่ 4 (rebase)'
+- n: '23'
+  t: แก้ไขประวัติเวอร์ชันที่ Commit แล้ว ตอนที่ 5 (rebase 2)
+  full: 'วันที่ 23: แก้ไขประวัติเวอร์ชันที่ Commit แล้ว ตอนที่ 5 (rebase 2)'
+- n: '24'
+  t: การใช้ GitHub Remote Repository - เริ่มต้นใช้งาน
+  full: 'วันที่ 24: การใช้ GitHub Remote Repository - เริ่มต้นใช้งาน'
+- n: '25'
+  t: การใช้ GitHub Remote Repository - แนวคิด
+  full: 'วันที่ 25: การใช้ GitHub Remote Repository - แนวคิด'
+- n: '26'
+  t: หลายคนทำงานใน Remote Repository เดียวกัน
+  full: 'วันที่ 26: หลายคนทำงานใน Remote Repository เดียวกัน'
+- n: '27'
+  t: การควบคุมเวอร์ชันด้วย Branch ใน Remote Repository เดียวกัน
+  full: 'วันที่ 27: การควบคุมเวอร์ชันด้วย Branch ใน Remote Repository เดียวกัน'
+- n: '28'
+  t: ทำความเข้าใจขั้นตอน Fork และ Pull Request บน GitHub
+  full: 'วันที่ 28: ทำความเข้าใจขั้นตอน Fork และ Pull Request บน GitHub'
+- n: '29'
+  t: วิธีนำเข้าโปรเจกต์ Subversion เข้าสู่ Git Repository
+  full: 'วันที่ 29: วิธีนำเข้าโปรเจกต์ Subversion เข้าสู่ Git Repository'
+- n: '30'
+  t: แบ่งปันเคล็ดลับการใช้งาน Git ที่มีประโยชน์จากการทำงานจริง
+  full: 'วันที่ 30: แบ่งปันเคล็ดลับการใช้งาน Git ที่มีประโยชน์จากการทำงานจริง'
+id:
+- n: '01'
+  t: Memahami Kontrol Versi Git
+  full: 'Hari 01: Memahami Kontrol Versi Git'
+- n: '02'
+  t: Tiga Alat Git Penting untuk Platform Windows
+  full: 'Hari 02: Tiga Alat Git Penting untuk Platform Windows'
+- n: '03'
+  t: Membuat Repositori
+  full: 'Hari 03: Membuat Repositori'
+- n: '04'
+  t: Perintah Kontrol Versi Git yang Umum Digunakan
+  full: 'Hari 04: Perintah Kontrol Versi Git yang Umum Digunakan'
+- n: '05'
+  t: Memahami Hubungan antara Repositori, Direktori Kerja, Objek, dan Indeks
+  full: 'Hari 05: Memahami Hubungan antara Repositori, Direktori Kerja, Objek, dan Indeks'
+- n: '06'
+  t: Mengurai Struktur Data Git - Struktur Objek
+  full: 'Hari 06: Mengurai Struktur Data Git - Struktur Objek'
+- n: '07'
+  t: Mengurai Struktur Data Git - Struktur Indeks
+  full: 'Hari 07: Mengurai Struktur Data Git - Struktur Indeks'
+- n: 08
+  t: Konsep Dasar dan Penggunaan Branch
+  full: 'Hari 08: Konsep Dasar dan Penggunaan Branch'
+- n: 09
+  t: Membandingkan Perbedaan File dan Versi
+  full: 'Hari 09: Membandingkan Perbedaan File dan Versi'
+- n: '10'
+  t: Memahami Nama Absolut Objek Git
+  full: 'Hari 10: Memahami Nama Absolut Objek Git'
+- n: '11'
+  t: Memahami Referensi Objek Git dan Referensi Simbolik
+  full: 'Hari 11: Memahami Referensi Objek Git dan Referensi Simbolik'
+- n: '12'
+  t: Memahami Nama Relatif Objek Git
+  full: 'Hari 12: Memahami Nama Relatif Objek Git'
+- n: '13'
+  t: Menyimpan Sementara Perubahan di Direktori Kerja dan Indeks (Stash)
+  full: 'Hari 13: Menyimpan Sementara Perubahan di Direktori Kerja dan Indeks (Stash)'
+- n: '14'
+  t: Opsi Konfigurasi Git for Windows
+  full: 'Hari 14: Opsi Konfigurasi Git for Windows'
+- n: '15'
+  t: Tag - Menandai Peristiwa Penting dalam Kontrol Versi
+  full: 'Hari 15: Tag - Menandai Peristiwa Penting dalam Kontrol Versi'
+- n: '16'
+  t: Menggunakan git reflog untuk Melacak Riwayat Perubahan
+  full: 'Hari 16: Menggunakan git reflog untuk Melacak Riwayat Perubahan'
+- n: '17'
+  t: Konsep Dasar dan Penggunaan Merge
+  full: 'Hari 17: Konsep Dasar dan Penggunaan Merge'
+- n: '18'
+  t: Memperbaiki Riwayat Versi yang Sudah Di-commit Bagian 1 (reset & amend)
+  full: 'Hari 18: Memperbaiki Riwayat Versi yang Sudah Di-commit Bagian 1 (reset & amend)'
+- n: '19'
+  t: Mengatur Daftar Abaikan .gitignore
+  full: 'Hari 19: Mengatur Daftar Abaikan .gitignore'
+- n: '20'
+  t: Memperbaiki Riwayat Versi yang Sudah Di-commit Bagian 2 (revert)
+  full: 'Hari 20: Memperbaiki Riwayat Versi yang Sudah Di-commit Bagian 2 (revert)'
+- n: '21'
+  t: Memperbaiki Riwayat Versi yang Sudah Di-commit Bagian 3 (cherry-pick)
+  full: 'Hari 21: Memperbaiki Riwayat Versi yang Sudah Di-commit Bagian 3 (cherry-pick)'
+- n: '22'
+  t: Memperbaiki Riwayat Versi yang Sudah Di-commit Bagian 4 (rebase)
+  full: 'Hari 22: Memperbaiki Riwayat Versi yang Sudah Di-commit Bagian 4 (rebase)'
+- n: '23'
+  t: Memperbaiki Riwayat Versi yang Sudah Di-commit Bagian 5 (rebase 2)
+  full: 'Hari 23: Memperbaiki Riwayat Versi yang Sudah Di-commit Bagian 5 (rebase 2)'
+- n: '24'
+  t: Menggunakan Repositori Remote GitHub - Memulai
+  full: 'Hari 24: Menggunakan Repositori Remote GitHub - Memulai'
+- n: '25'
+  t: Menggunakan Repositori Remote GitHub - Konsep
+  full: 'Hari 25: Menggunakan Repositori Remote GitHub - Konsep'
+- n: '26'
+  t: Banyak Orang Bekerja di Repositori Remote yang Sama
+  full: 'Hari 26: Banyak Orang Bekerja di Repositori Remote yang Sama'
+- n: '27'
+  t: Kontrol Versi melalui Branch di Repositori Remote yang Sama
+  full: 'Hari 27: Kontrol Versi melalui Branch di Repositori Remote yang Sama'
+- n: '28'
+  t: Memahami Alur Kerja Fork dan Pull Request di GitHub
+  full: 'Hari 28: Memahami Alur Kerja Fork dan Pull Request di GitHub'
+- n: '29'
+  t: Cara Mengimpor Proyek Subversion ke Repositori Git
+  full: 'Hari 29: Cara Mengimpor Proyek Subversion ke Repositori Git'
+- n: '30'
+  t: Berbagi Tips Operasi Git yang Berguna dari Pekerjaan
+  full: 'Hari 30: Berbagi Tips Operasi Git yang Berguna dari Pekerjaan'
+ms:
+- n: '01'
+  t: Memahami Kawalan Versi Git
+  full: 'Hari 01: Memahami Kawalan Versi Git'
+- n: '02'
+  t: Tiga Alat Git Penting untuk Platform Windows
+  full: 'Hari 02: Tiga Alat Git Penting untuk Platform Windows'
+- n: '03'
+  t: Mencipta Repositori
+  full: 'Hari 03: Mencipta Repositori'
+- n: '04'
+  t: Perintah Kawalan Versi Git yang Lazim Digunakan
+  full: 'Hari 04: Perintah Kawalan Versi Git yang Lazim Digunakan'
+- n: '05'
+  t: Memahami Hubungan antara Repositori, Direktori Kerja, Objek, dan Indeks
+  full: 'Hari 05: Memahami Hubungan antara Repositori, Direktori Kerja, Objek, dan Indeks'
+- n: '06'
+  t: Menghurai Struktur Data Git - Struktur Objek
+  full: 'Hari 06: Menghurai Struktur Data Git - Struktur Objek'
+- n: '07'
+  t: Menghurai Struktur Data Git - Struktur Indeks
+  full: 'Hari 07: Menghurai Struktur Data Git - Struktur Indeks'
+- n: 08
+  t: Konsep Asas dan Penggunaan Cabang
+  full: 'Hari 08: Konsep Asas dan Penggunaan Cabang'
+- n: 09
+  t: Membandingkan Perbezaan Fail dan Versi
+  full: 'Hari 09: Membandingkan Perbezaan Fail dan Versi'
+- n: '10'
+  t: Memahami Nama Mutlak Objek Git
+  full: 'Hari 10: Memahami Nama Mutlak Objek Git'
+- n: '11'
+  t: Memahami Rujukan Objek Git dan Rujukan Simbolik
+  full: 'Hari 11: Memahami Rujukan Objek Git dan Rujukan Simbolik'
+- n: '12'
+  t: Memahami Nama Relatif Objek Git
+  full: 'Hari 12: Memahami Nama Relatif Objek Git'
+- n: '13'
+  t: Menyimpan Sementara Perubahan dalam Direktori Kerja dan Indeks (Stash)
+  full: 'Hari 13: Menyimpan Sementara Perubahan dalam Direktori Kerja dan Indeks (Stash)'
+- n: '14'
+  t: Pilihan Konfigurasi Git for Windows
+  full: 'Hari 14: Pilihan Konfigurasi Git for Windows'
+- n: '15'
+  t: Tag - Menandakan Peristiwa Penting dalam Kawalan Versi
+  full: 'Hari 15: Tag - Menandakan Peristiwa Penting dalam Kawalan Versi'
+- n: '16'
+  t: Menggunakan git reflog untuk Menjejak Sejarah Perubahan
+  full: 'Hari 16: Menggunakan git reflog untuk Menjejak Sejarah Perubahan'
+- n: '17'
+  t: Konsep Asas dan Penggunaan Cantuman (Merge)
+  full: 'Hari 17: Konsep Asas dan Penggunaan Cantuman (Merge)'
+- n: '18'
+  t: Membetulkan Sejarah Versi yang Telah Di-commit Bahagian 1 (reset & amend)
+  full: 'Hari 18: Membetulkan Sejarah Versi yang Telah Di-commit Bahagian 1 (reset & amend)'
+- n: '19'
+  t: Menetapkan Senarai Abaikan .gitignore
+  full: 'Hari 19: Menetapkan Senarai Abaikan .gitignore'
+- n: '20'
+  t: Membetulkan Sejarah Versi yang Telah Di-commit Bahagian 2 (revert)
+  full: 'Hari 20: Membetulkan Sejarah Versi yang Telah Di-commit Bahagian 2 (revert)'
+- n: '21'
+  t: Membetulkan Sejarah Versi yang Telah Di-commit Bahagian 3 (cherry-pick)
+  full: 'Hari 21: Membetulkan Sejarah Versi yang Telah Di-commit Bahagian 3 (cherry-pick)'
+- n: '22'
+  t: Membetulkan Sejarah Versi yang Telah Di-commit Bahagian 4 (rebase)
+  full: 'Hari 22: Membetulkan Sejarah Versi yang Telah Di-commit Bahagian 4 (rebase)'
+- n: '23'
+  t: Membetulkan Sejarah Versi yang Telah Di-commit Bahagian 5 (rebase 2)
+  full: 'Hari 23: Membetulkan Sejarah Versi yang Telah Di-commit Bahagian 5 (rebase 2)'
+- n: '24'
+  t: Menggunakan Repositori Jauh GitHub - Bermula
+  full: 'Hari 24: Menggunakan Repositori Jauh GitHub - Bermula'
+- n: '25'
+  t: Menggunakan Repositori Jauh GitHub - Konsep
+  full: 'Hari 25: Menggunakan Repositori Jauh GitHub - Konsep'
+- n: '26'
+  t: Ramai Orang Bekerja dalam Repositori Jauh yang Sama
+  full: 'Hari 26: Ramai Orang Bekerja dalam Repositori Jauh yang Sama'
+- n: '27'
+  t: Kawalan Versi melalui Cabang dalam Repositori Jauh yang Sama
+  full: 'Hari 27: Kawalan Versi melalui Cabang dalam Repositori Jauh yang Sama'
+- n: '28'
+  t: Memahami Aliran Kerja Fork dan Pull Request di GitHub
+  full: 'Hari 28: Memahami Aliran Kerja Fork dan Pull Request di GitHub'
+- n: '29'
+  t: Cara Mengimport Projek Subversion ke Repositori Git
+  full: 'Hari 29: Cara Mengimport Projek Subversion ke Repositori Git'
+- n: '30'
+  t: Berkongsi Petua Operasi Git yang Berguna daripada Kerja
+  full: 'Hari 30: Berkongsi Petua Operasi Git yang Berguna daripada Kerja'

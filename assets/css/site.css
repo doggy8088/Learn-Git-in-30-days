@@ -88,6 +88,11 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 body.lang-zh-tw { --font-sans: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif; --font-serif: "Noto Serif TC", "PingFang TC", serif; }
 body.lang-zh-cn { --font-sans: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif; --font-serif: "Noto Serif SC", "Songti SC", serif; }
 body.lang-fa { --font-sans: "Vazirmatn", system-ui, sans-serif; --font-serif: "Vazirmatn", system-ui, sans-serif; }
+body.lang-ja { --font-sans: "Noto Sans JP", "Hiragino Kaku Gothic ProN", system-ui, sans-serif; --font-serif: "Noto Serif JP", "Hiragino Mincho ProN", serif; }
+body.lang-ko { --font-sans: "Noto Sans KR", "Apple SD Gothic Neo", system-ui, sans-serif; --font-serif: "Noto Serif KR", serif; }
+body.lang-vi { --font-sans: "Noto Sans", system-ui, sans-serif; --font-serif: "Noto Serif", Georgia, serif; }
+body.lang-th { --font-sans: "Noto Sans Thai", system-ui, sans-serif; --font-serif: "Noto Serif Thai", serif; }
+body.lang-id, body.lang-ms { --font-sans: "Inter", system-ui, sans-serif; --font-serif: "Newsreader", Georgia, serif; }
 
 /* ---------- top bar ---------- */
 .topbar {
@@ -226,6 +231,9 @@ body.lang-fa { --font-sans: "Vazirmatn", system-ui, sans-serif; --font-serif: "V
 }
 body.lang-zh-tw .prose, body.lang-zh-cn .prose { line-height: 1.92; letter-spacing: .012em; }
 body.lang-fa .prose { line-height: 1.95; }
+body.lang-ja .prose, body.lang-ko .prose { line-height: 1.9; }
+body.lang-th .prose { line-height: 2.0; }
+body.lang-vi .prose { line-height: 1.88; }
 .prose > *:first-child { margin-top: 0; }
 .prose p { margin: 0 0 1.35em; }
 .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
@@ -417,7 +425,8 @@ body.lang-fa .pn-title { font-family: var(--font-sans); font-weight: 700; }
 .section { position: relative; z-index: 1; max-width: 1180px; margin: 0 auto; padding: 3.4rem 1.4rem .6rem; }
 .section-title { font-family: var(--font-serif); font-size: 1.85rem; font-weight: 900; margin: 0 0 1.7rem; }
 .section-title-en { font-family: var(--font-sans); font-size: .95rem; font-weight: 600; color: var(--muted); letter-spacing: .06em; margin-inline-start: .7rem; }
-.lang-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+.lang-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1rem; }
+@media (max-width: 1100px) { .lang-grid { grid-template-columns: repeat(3, 1fr); } }
 .lang-card {
   display: flex; flex-direction: column; gap: .3rem;
   padding: 1.35rem 1.3rem 1.2rem;

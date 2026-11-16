@@ -20,6 +20,12 @@
               if (l.indexOf('hans') > -1 || l.indexOf('-cn') > -1 || l.indexOf('-sg') > -1) return 'zh-cn';
               return 'zh-tw';
             }
+            if (l.indexOf('ja') === 0) return 'ja';
+            if (l.indexOf('ko') === 0) return 'ko';
+            if (l.indexOf('vi') === 0) return 'vi';
+            if (l.indexOf('th') === 0) return 'th';
+            if (l.indexOf('id') === 0 || l.indexOf('in') === 0) return 'id';
+            if (l.indexOf('ms') === 0) return 'ms';
             if (l.indexOf('en') === 0) return 'en';
           }
           return 'en';

@@ -14,6 +14,12 @@
 * [中文版目录 (简体)](zh-cn/README.md)
 * [English Version](en/README.md)
 * [نسخه فارسی (Persian)](fa/README.md)
+* [日本語版 (Japanese)](ja/README.md)
+* [한국어판 (Korean)](ko/README.md)
+* [Phiên bản Tiếng Việt (Vietnamese)](vi/README.md)
+* [ฉบับภาษาไทย (Thai)](th/README.md)
+* [Edisi Bahasa Indonesia (Indonesian)](id/README.md)
+* [Edisi Bahasa Melayu (Malay)](ms/README.md)
 
 ## 獲獎紀錄
 
