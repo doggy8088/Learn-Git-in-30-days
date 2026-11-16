@@ -19,35 +19,35 @@ defaults:
       layout: "book"
       book_lang: "zh-tw"
       html_lang: "zh-TW"
-      dir: "ltr"
+      text_dir: "ltr"
   - scope:
       path: "zh-tw"
     values:
       layout: "book"
       book_lang: "zh-tw"
       html_lang: "zh-TW"
-      dir: "ltr"
+      text_dir: "ltr"
   - scope:
       path: "zh-cn"
     values:
       layout: "book"
       book_lang: "zh-cn"
       html_lang: "zh-CN"
-      dir: "ltr"
+      text_dir: "ltr"
   - scope:
       path: "en"
     values:
       layout: "book"
       book_lang: "en"
       html_lang: "en"
-      dir: "ltr"
+      text_dir: "ltr"
   - scope:
       path: "fa"
     values:
       layout: "book"
       book_lang: "fa"
       html_lang: "fa"
-      dir: "rtl"
+      text_dir: "rtl"
 exclude:
   - en/PROOFREADING_PLAN.md
   - en/PROOFREADING_SUMMARY.md
