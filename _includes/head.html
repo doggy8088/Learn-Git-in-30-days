@@ -1,8 +1,76 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {% assign ui = site.data.ui[page.book_lang] %}
-<title>{% if page.title and page.title != ui.book_title %}{{ page.title }} · {% endif %}{{ ui.book_title }}</title>
-<meta name="description" content="{{ site.description }}">
+{% capture page_title %}{% if page.title and page.title != ui.book_title %}{{ page.title }} · {% endif %}{{ ui.book_title }}{% endcapture %}
+{% assign page_desc = page.excerpt | strip_html | strip_newlines | strip | truncate: 155 %}
+{% if page_desc == '' %}{% assign page_desc = ui.footer_note | default: site.description %}{% endif %}
+{% assign og_image = '/assets/img/og-' | append: page.book_lang | append: '.jpg' | absolute_url %}
+{% case page.book_lang %}
+{% when 'zh-tw' %}{% assign og_locale = 'zh_TW' %}
+{% when 'zh-cn' %}{% assign og_locale = 'zh_CN' %}
+{% when 'fa' %}{% assign og_locale = 'fa_IR' %}
+{% else %}{% assign og_locale = 'en_US' %}
+{% endcase %}
+<title>{{ page_title }}</title>
+<meta name="description" content="{{ page_desc | escape }}">
+<meta name="author" content="Will 保哥 (黃保翕)">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#faf6ef">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+{% comment %} hreflang alternates: same page in the other languages {% endcomment %}
+{% if page.url == '/' %}
+<link rel="alternate" hreflang="zh-Hant" href="{{ '/zh-tw/' | absolute_url }}">
+<link rel="alternate" hreflang="zh-Hans" href="{{ '/zh-cn/' | absolute_url }}">
+<link rel="alternate" hreflang="en" href="{{ '/en/' | absolute_url }}">
+<link rel="alternate" hreflang="fa" href="{{ '/fa/' | absolute_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+{% else %}
+{% assign cur_prefix = '/' | append: page.book_lang | append: '/' %}
+{% assign rest_path = page.url | remove_first: cur_prefix %}
+{% for pair in site.data.ui %}
+{% assign other = pair[0] %}
+{% assign other_hl = other | replace: 'zh-tw', 'zh-Hant' | replace: 'zh-cn', 'zh-Hans' %}
+<link rel="alternate" hreflang="{{ other_hl }}" href="{{ '/' | append: other | append: '/' | append: rest_path | absolute_url }}">
+{% endfor %}
+<link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}">
+{% endif %}
+{% comment %} Open Graph (Facebook) {% endcomment %}
+<meta property="og:type" content="{% if page.layout == 'landing' %}book{% else %}website{% endif %}">
+<meta property="og:site_name" content="{{ ui.book_title }}">
+<meta property="og:locale" content="{{ og_locale }}">
+{% for pair in site.data.ui %}{% assign other = pair[0] %}{% if other != page.book_lang %}{% case other %}{% when 'zh-tw' %}{% assign alt_loc = 'zh_TW' %}{% when 'zh-cn' %}{% assign alt_loc = 'zh_CN' %}{% when 'fa' %}{% assign alt_loc = 'fa_IR' %}{% else %}{% assign alt_loc = 'en_US' %}{% endcase %}<meta property="og:locale:alternate" content="{{ alt_loc }}">
+{% endif %}{% endfor %}<meta property="og:title" content="{{ page_title | escape }}">
+<meta property="og:description" content="{{ page_desc | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ og_image }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:alt" content="{{ ui.book_title }}">
+{% comment %} Twitter Card {% endcomment %}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page_title | escape }}">
+<meta name="twitter:description" content="{{ page_desc | escape }}">
+<meta name="twitter:image" content="{{ og_image }}">
+<meta name="twitter:image:alt" content="{{ ui.book_title }}">
+{% if page.layout == 'landing' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "30 天精通 Git 版本控管",
+  "alternateName": "Master Git in 30 Days",
+  "author": { "@type": "Person", "name": "黃保翕 (Will 保哥)", "url": "https://www.facebook.com/will.fans/" },
+  "url": "{{ '/' | absolute_url }}",
+  "image": "{{ og_image }}",
+  "description": "{{ site.description | escape }}",
+  "inLanguage": ["zh-TW", "zh-CN", "en", "fa"],
+  "bookFormat": "https://schema.org/EBook",
+  "award": "2013 第 6 屆 iT 邦幫忙鐵人賽年度大獎",
+  "isAccessibleForFree": true
+}
+</script>
+{% endif %}
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='10' cy='6' r='3.4' fill='%23e8590c'/%3E%3Ccircle cx='10' cy='26' r='3.4' fill='%232b8a3e'/%3E%3Ccircle cx='23' cy='16' r='3.4' fill='%231971c2'/%3E%3Cpath d='M10 9v14M10 16c6 0 7-0 10-0' stroke='%23888' stroke-width='2.4' fill='none'/%3E%3C/svg%3E">
 <script>
   (function () {

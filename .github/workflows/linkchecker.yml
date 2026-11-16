@@ -14,11 +14,11 @@ on:
 
 jobs:
   link_checker:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v7
 
       - name: Install linkchecker
         run: |
@@ -35,7 +35,7 @@ jobs:
             https://doggy8088.github.io/Learn-Git-in-30-days/
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: linkchecker-result
           path: linkchecker-result.html
