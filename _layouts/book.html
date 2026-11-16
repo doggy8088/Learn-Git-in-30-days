@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="{{ page.html_lang }}" dir="{{ page.dir }}">
+<head>
+  {% include head.html %}
+</head>
+<body class="book lang-{{ page.book_lang }}" data-lang="{{ page.book_lang }}">
+  {% include topbar.html %}
+  {% assign ui = site.data.ui[page.book_lang] %}
+  {% assign chapters = site.data.chapters[page.book_lang] %}
+  {% assign cur = page.name | replace: '.md', '' | replace: '.html', '' %}
+  <div class="shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="side-home{% if cur == 'README' %} active{% endif %}" href="{{ '/' | relative_url }}{{ page.book_lang }}/">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V4a1 1 0 0 0-1-1H6.5A2.5 2.5 0 0 0 4 5.5v14z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg>
+        {{ ui.home }}
+      </a>
+      <div class="side-filter">
+        <input type="search" id="chapterFilter" placeholder="{{ ui.filter }}" aria-label="{{ ui.filter }}">
+      </div>
+      <nav class="side-nav" id="sideNav" aria-label="{{ ui.contents }}">
+        <div class="side-title">{{ ui.contents }}</div>
+        {% for ch in chapters %}
+          {% if ch.n == '01' or ch.n == '08' or ch.n == '17' or ch.n == '24' or ch.n == '29' %}
+            {% assign gi = 0 %}
+            {% if ch.n == '08' %}{% assign gi = 1 %}{% elsif ch.n == '17' %}{% assign gi = 2 %}{% elsif ch.n == '24' %}{% assign gi = 3 %}{% elsif ch.n == '29' %}{% assign gi = 4 %}{% endif %}
+            <div class="side-group">{{ ui.groups[gi] }}</div>
+          {% endif %}
+          <a class="side-link{% if ch.n == cur %} active{% endif %}" href="{{ '/' | relative_url }}{{ page.book_lang }}/{{ ch.n }}.html" data-title="{{ ch.t }}">
+            <span class="dnum">{{ ch.n }}</span><span class="dtext">{{ ch.t }}</span>
+          </a>
+        {% endfor %}
+      </nav>
+      <div class="side-foot">
+        <a href="{{ '/' | relative_url }}?home=1">{{ ui.all_languages }}</a>
+      </div>
+    </aside>
+    <div class="backdrop" id="backdrop"></div>
+
+    <main class="main">
+      <article class="prose" id="article">
+        {{ content }}
+      </article>
+
+      {% assign prev_ch = nil %}{% assign next_ch = nil %}{% assign found = false %}
+      {% for ch in chapters %}
+        {% if ch.n == cur %}{% assign found = true %}
+        {% elsif found %}{% if next_ch == nil %}{% assign next_ch = ch %}{% endif %}
+        {% else %}{% assign prev_ch = ch %}
+        {% endif %}
+      {% endfor %}
+      {% if found %}
+      <nav class="prevnext" aria-label="Pagination">
+        {% if prev_ch %}
+        <a class="pn-card pn-prev" href="{{ '/' | relative_url }}{{ page.book_lang }}/{{ prev_ch.n }}.html">
+          <span class="pn-label">{{ ui.prev }}</span>
+          <span class="pn-title"><span class="dnum">{{ prev_ch.n }}</span> {{ prev_ch.t }}</span>
+        </a>
+        {% else %}<span class="pn-spacer"></span>{% endif %}
+        {% if next_ch %}
+        <a class="pn-card pn-next" href="{{ '/' | relative_url }}{{ page.book_lang }}/{{ next_ch.n }}.html">
+          <span class="pn-label">{{ ui.next }}</span>
+          <span class="pn-title"><span class="dnum">{{ next_ch.n }}</span> {{ next_ch.t }}</span>
+        </a>
+        {% endif %}
+      </nav>
+      {% endif %}
+
+      <footer class="book-footer">
+        <p>{{ ui.footer_note }}</p>
+        <p class="bf-links">
+          <a href="https://github.com/doggy8088/Learn-Git-in-30-days">{{ ui.github }}</a>
+          <span aria-hidden="true">·</span>
+          <a href="{{ '/' | relative_url }}?home=1">{{ ui.all_languages }}</a>
+        </p>
+      </footer>
+    </main>
+
+    <aside class="toc" id="tocWrap">
+      <div class="toc-title">{{ ui.on_this_page }}</div>
+      <nav class="toc-nav" id="toc"></nav>
+    </aside>
+  </div>
+  <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+title: "30 天精通 Git 版本控管"
+description: "《30 天精通 Git 版本控管》— Will 保哥 (黃保翕) 於 2013 第 6 屆 iT 邦幫忙鐵人賽的年度大獎作品，現有繁體中文、简体中文、English、فارسی 四種語言版本。"
+baseurl: "/Learn-Git-in-30-days"
+url: "https://doggy8088.github.io"
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jekyll-titles-from-headings
+  - jekyll-default-layout
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "book"
+      book_lang: "zh-tw"
+      html_lang: "zh-TW"
+      dir: "ltr"
+  - scope:
+      path: "zh-tw"
+    values:
+      layout: "book"
+      book_lang: "zh-tw"
+      html_lang: "zh-TW"
+      dir: "ltr"
+  - scope:
+      path: "zh-cn"
+    values:
+      layout: "book"
+      book_lang: "zh-cn"
+      html_lang: "zh-CN"
+      dir: "ltr"
+  - scope:
+      path: "en"
+    values:
+      layout: "book"
+      book_lang: "en"
+      html_lang: "en"
+      dir: "ltr"
+  - scope:
+      path: "fa"
+    values:
+      layout: "book"
+      book_lang: "fa"
+      html_lang: "fa"
+      dir: "rtl"
+exclude:
+  - en/PROOFREADING_PLAN.md
+  - en/PROOFREADING_SUMMARY.md
+  - linkchecker-result.html

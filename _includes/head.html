@@ -1,0 +1,26 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% assign ui = site.data.ui[page.book_lang] %}
+<title>{% if page.title and page.title != ui.book_title %}{{ page.title }} · {% endif %}{{ ui.book_title }}</title>
+<meta name="description" content="{{ site.description }}">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='10' cy='6' r='3.4' fill='%23e8590c'/%3E%3Ccircle cx='10' cy='26' r='3.4' fill='%232b8a3e'/%3E%3Ccircle cx='23' cy='16' r='3.4' fill='%231971c2'/%3E%3Cpath d='M10 9v14M10 16c6 0 7-0 10-0' stroke='%23888' stroke-width='2.4' fill='none'/%3E%3C/svg%3E">
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem('lg30-theme');
+      if (t) document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+{% if page.book_lang == 'zh-tw' %}
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+{% elsif page.book_lang == 'zh-cn' %}
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+{% elsif page.book_lang == 'fa' %}
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+{% else %}
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,600;6..72,700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+{% endif %}
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">

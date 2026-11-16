@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-TW" dir="ltr">
+<head>
+  {% include head.html %}
+  <script>
+    (function () {
+      try {
+        if (new URLSearchParams(location.search).has('home')) return;
+        var base = '{{ site.baseurl }}';
+        var saved = null;
+        try { saved = localStorage.getItem('lg30-lang'); } catch (e) {}
+        var lang = saved || detectLang();
+        if (lang) location.replace(base + '/' + lang + '/');
+        function detectLang() {
+          var list = navigator.languages || [navigator.language || 'en'];
+          for (var i = 0; i < list.length; i++) {
+            var l = String(list[i]).toLowerCase();
+            if (l.indexOf('fa') === 0) return 'fa';
+            if (l.indexOf('zh') === 0) {
+              if (l.indexOf('hans') > -1 || l.indexOf('-cn') > -1 || l.indexOf('-sg') > -1) return 'zh-cn';
+              return 'zh-tw';
+            }
+            if (l.indexOf('en') === 0) return 'en';
+          }
+          return 'en';
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body class="landing lang-zh-tw" data-lang="zh-tw">
+  {% include topbar.html %}
+  {{ content }}
+  <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+</body>
+</html>
